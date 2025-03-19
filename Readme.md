@@ -1,17 +1,19 @@
 
 
-# Contributing to SkillNet-Learning-hub
+# Contributing to SkillNet: Empowering Careers with Blockchain
 
-Thank you for your interest in contributing to **SkillNet**! SkillNet is an innovative, blockchain-powered platform that features courses for upskilling in decentralized ecosystem. The backend is built with **Node.js** and integrates with **StarkNet blockchain** for decentralization and security. Here's how you can contribute effectively.
+Thank you for your interest in contributing to SkillNet! **SkillNet** is a blockchain-powered job platform designed to connect job seekers with top employers. Our **backend** is built with **Node.js** and integrates with **StarkNet** blockchain to ensure secure, verifiable hiring processes.
 
 ## Project Overview
 
-**SkillNet** combines:
-- **Learning Hub**: Allowing tutors  to create, sell, and deliver high-quality courses and exams.
-- **Blockchain Technology**: Ensuring transparency, security, and decentralization through **StarkNet**.
+**SkillNet** is a next-generation recruitment platform that:
+
+- **Empowers Job Seekers:** Provides verified credentials and direct access to job opportunities.
+- **Supports Employers:** Ensures trust in hiring through blockchain-authenticated candidate profiles.
+- **Enhances Hiring Transparency:** Uses StarkNet blockchain for secure, fraud-proof hiring.
 
 ### Features
-- Verified courses for users.
+- Verified certificate for employers.
 ---
 
 ## How to Contribute
@@ -20,15 +22,15 @@ We welcome contributions in various forms, including bug fixes, feature implemen
 
 ### 1. Fork the Repository
 1. Navigate to the
-(https://github.com/skill-mind/SkillNet-Learning-Hub-Server.git).
+(https://github.com/skill-mind/skillnet-job-market-place-server.git).
 2. Click the **Fork** button to create your copy of the repository.
 
 ### 2. Clone the Repository
 - Clone your forked repository to your local machine:
 ```bash
-git clone https://github.com/<your-username>//skill-mind/SkillNet-Learning-Hub-Server.git
+git clone https://github.com/<your-username>/skill-mind/skillnet-job-market-place-server.git
 
-cd SkillNet-Learning-Hub-Server
+cd skillnet-job-market-place-server
 ```
 
 ### 3. Set Up the Project
