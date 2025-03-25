@@ -1,19 +1,29 @@
 
 
-# Contributing to SkillNet: Empowering Careers with Blockchain
+# Contributing to SkillNet: Empowering Exams with Innovation
 
-Thank you for your interest in contributing to SkillNet! **SkillNet** is a blockchain-powered job platform designed to connect job seekers with top employers. Our **backend** is built with **Node.js** and integrates with **StarkNet** blockchain to ensure secure, verifiable hiring processes.
+Thank you for your interest in contributing to SkillNet! SkillNet is a cutting-edge platform designed to host secure and efficient online exams. Our backend is built with Node.js and utilizes modern technologies to deliver a seamless testing experience for educators and candidates.
 
 ## Project Overview
 
-**SkillNet** is a next-generation recruitment platform that:
+**SkillNet** re-imagines online examinations by:
 
-- **Empowers Job Seekers:** Provides verified credentials and direct access to job opportunities.
-- **Supports Employers:** Ensures trust in hiring through blockchain-authenticated candidate profiles.
-- **Enhances Hiring Transparency:** Uses StarkNet blockchain for secure, fraud-proof hiring.
+- **Empowering Educators:** Offering robust tools for creating, scheduling, and managing exams.
+
+- **Enhancing Candidate Experience:** Delivering a user-friendly and secure testing environment.
+
+- **Ensuring Exam Integrity:** Incorporating advanced proctoring solutions and real-time analytics for fair assessments.
 
 ### Features
-- Verified certificate for employers.
+- Exam creation and scheduling tools
+
+- Secure, real-time exam monitoring and proctoring
+
+- Comprehensive performance analytics
+
+- Customizable exam templates
+
+- Integrated communication channels
 ---
 
 ## How to Contribute
@@ -22,15 +32,15 @@ We welcome contributions in various forms, including bug fixes, feature implemen
 
 ### 1. Fork the Repository
 1. Navigate to the
-(https://github.com/skill-mind/skillnet-job-market-place-server.git).
+(https://github.com/skill-mind/skillnet-exam-server.git).
 2. Click the **Fork** button to create your copy of the repository.
 
 ### 2. Clone the Repository
 - Clone your forked repository to your local machine:
 ```bash
-git clone https://github.com/<your-username>/skill-mind/skillnet-job-market-place-server.git
+git clone https://github.com/<your-username>/skill-mind/skillnet-exam-server.git
 
-cd skillnet-job-market-place-server
+cd sskillnet-exam-server
 ```
 
 ### 3. Set Up the Project
