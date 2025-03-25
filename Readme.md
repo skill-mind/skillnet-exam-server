@@ -38,6 +38,7 @@ cd skillnet-job-market-place-server
 
 - Node.js (v16.x or above)
 - npm 
+- git
 
 **Install Dependencies:**
 
