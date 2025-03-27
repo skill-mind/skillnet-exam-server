@@ -1,0 +1,16 @@
+services:
+  db:
+    image: postgres:latest
+    container_name: skillnet
+    restart: always
+    environment:
+      POSTGRES_DB: skillnet_exam
+      POSTGRES_USER: skillnet_exam
+      POSTGRES_PASSWORD: skillnet_exam
+    ports:
+      - "5433:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:

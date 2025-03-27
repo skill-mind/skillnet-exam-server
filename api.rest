@@ -1,0 +1,245 @@
+@baseUrl = http://localhost:5001/api
+
+### Auth Routes ###
+
+### Register a new user
+# @name register
+POST {{baseUrl}}/auth/register
+Content-Type: application/json
+
+{
+  "fullName": "Test User",
+  "email": "test@example.com",
+  "walletAddress": "1"
+}
+
+### Login user
+# @name login
+POST {{baseUrl}}/auth/login
+Content-Type: application/json
+
+{
+  "email": "test@example.com",
+  "walletAddress": "1"
+}
+
+### Register a new admin user
+# @name register
+POST {{baseUrl}}/auth/register
+Content-Type: application/json
+
+{
+  "fullName": "Test Admin1",
+  "email": "test1.admin@example.com",
+  "walletAddress": "3",
+  "role": "admin"
+}
+
+
+### Login Admin user
+# @name login
+POST {{baseUrl}}/auth/login
+Content-Type: application/json
+
+{
+  "email": "test1.admin@example.com",
+  "walletAddress": "3"
+}
+
+### Save the auth token from the login response
+@authToken = {{login.response.body.token}}
+
+### Get user profile
+GET {{baseUrl}}/auth/profile
+Authorization: Bearer {{authToken}}
+
+### User Routes ###
+
+### Get user profile
+GET {{baseUrl}}/users/profile
+Authorization: Bearer {{authToken}}
+
+### Update user profile
+PUT {{baseUrl}}/users/profile
+Authorization: Bearer {{authToken}}
+Content-Type: application/json
+
+{
+  "fullName": "Updated Name",
+  "email": "updated@example.com"
+}
+
+### Get user by wallet address
+GET {{baseUrl}}/users/wallet/1
+
+### Get all users (admin only)
+GET {{baseUrl}}/users
+Authorization: Bearer {{authToken}}
+
+### Exam Routes ###
+
+### Get all exams
+GET {{baseUrl}}/exams
+
+### Get exams by category
+GET {{baseUrl}}/exams/category/Javascript
+
+### Create a new exam (admin only)
+# @name createExam
+POST {{baseUrl}}/exams
+Authorization: Bearer {{authToken}}
+Content-Type: application/json
+
+{
+  "name": "JavaScript Fundamentals",
+  "description": "Test your knowledge of JavaScript fundamentals",
+  "category": "Javascript",
+  "date": "2023-12-31T00:00:00.000Z",
+  "duration": 60,
+  "certification": true,
+  "passingScore": 70,
+  "format": "Multichoice",
+  "topicsCovered": ["Variables", "Functions", "Objects", "Arrays"],
+  "benefits": ["Improve your JS skills", "Get certified", "Enhance your resume"],
+  "price": 49.99,
+  "instructions": ["Read each question carefully", "You can review answers before submitting"],
+  "questions": [
+    {
+      "question": "Which of the following is not a JavaScript data type?",
+      "options": [
+        {
+          "text": "String",
+          "isCorrect": false
+        },
+        {
+          "text": "Boolean",
+          "isCorrect": false
+        },
+        {
+          "text": "Float",
+          "isCorrect": true
+        },
+        {
+          "text": "Object",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What does the '===' operator do?",
+      "options": [
+        {
+          "text": "Assigns a value",
+          "isCorrect": false
+        },
+        {
+          "text": "Compares value only",
+          "isCorrect": false
+        },
+        {
+          "text": "Compares value and type",
+          "isCorrect": true
+        },
+        {
+          "text": "Logical AND",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}
+
+### Save the exam ID from the create exam response
+@examId = {{createExam.response.body.id}}
+
+### Get exam by ID
+GET {{baseUrl}}/exams/{{examId}}
+
+### Update an exam (admin only)
+PUT {{baseUrl}}/exams/{{examId}}
+Authorization: Bearer {{authToken}}
+Content-Type: application/json
+
+{
+  "name": "Updated JavaScript Fundamentals",
+  "description": "Updated description",
+  "price": 59.99
+}
+
+### Delete an exam (admin only)
+DELETE {{baseUrl}}/exams/{{examId}}
+Authorization: Bearer {{authToken}}
+
+### Registration Routes ###
+
+### Register for an exam
+# @name registerExam
+POST {{baseUrl}}/registrations
+Authorization: Bearer {{authToken}}
+Content-Type: application/json
+
+{
+  "examId": "{{examId}}"
+}
+
+### Save the registration ID from the register exam response
+@registrationId = {{registerExam.response.body.id}}
+
+### Update payment status
+PUT {{baseUrl}}/registrations/{{registrationId}}/payment
+Authorization: Bearer {{authToken}}
+Content-Type: application/json
+
+{
+  "paymentStatus": "completed"
+}
+
+### Get user's registrations
+GET {{baseUrl}}/registrations/user
+Authorization: Bearer {{authToken}}
+
+### Validate exam code
+POST {{baseUrl}}/registrations/validate
+Content-Type: application/json
+
+{
+  "email": "test@example.com",
+  "examCode": "{{registerExam.response.body.examCode}}"
+}
+
+### Result Routes ###
+
+### Submit exam and create result
+# @name submitExam
+POST {{baseUrl}}/results
+Authorization: Bearer {{authToken}}
+Content-Type: application/json
+
+{
+  "registrationId": "{{registrationId}}",
+  "answers": [
+    {
+      "questionId": "{{createExam.response.body.questions[0].id}}",
+      "selectedOption": "{{createExam.response.body.questions[0].options[2].id}}"
+    },
+    {
+      "questionId": "{{createExam.response.body.questions[1].id}}",
+      "selectedOption": "{{createExam.response.body.questions[1].options[2].id}}"
+    }
+  ]
+}
+
+### Save the result ID from the submit exam response
+@resultId = {{submitExam.response.body.id}}
+
+### Get user's results
+GET {{baseUrl}}/results/user
+Authorization: Bearer {{authToken}}
+
+### Get result by ID
+GET {{baseUrl}}/results/{{resultId}}
+Authorization: Bearer {{authToken}}
+
+### Generate certificate for a result
+GET {{baseUrl}}/results/certificate/{{resultId}}
+Authorization: Bearer {{authToken}}
