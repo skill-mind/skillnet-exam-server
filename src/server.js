@@ -7,6 +7,7 @@ const morgan = require('morgan');
 const winston = require('winston');
 const { connectDB } = require('./config/db');
 const { syncDatabase } = require('./models');
+const swaggerDocs = require('./docs/swagger');
 require('dotenv').config();
 
 // Winston logger setup
@@ -46,6 +47,7 @@ const startServer = async () => {
     app.use(express.urlencoded({ extended: false }));
     app.use(compression()); // Compress responses
     app.use(morgan('combined', { stream: { write: message => logger.info(message.trim()) } }));
+    app.use('/api-docs', swaggerDocs.serve, swaggerDocs.setup);
     
     // Routes
     app.use('/api/exams', require('./routes/exam.routes'));

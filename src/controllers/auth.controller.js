@@ -71,7 +71,7 @@ const loginUser = asyncHandler(async (req, res) => {
   const { email, walletAddress } = req.body;
 
   // Check for user email
-  const user = await User.findOne({ where: { email } });
+  const user = await User.findOne({ where: { email, walletAddress } });
 
   if (user && walletAddress) {
     res.json({
