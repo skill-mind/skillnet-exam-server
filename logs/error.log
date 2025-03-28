@@ -1,0 +1,4 @@
+{"level":"error","message":"Op is not defined - /api/auth/register - POST - ::ffff:127.0.0.1","service":"skillnet-exam-api","timestamp":"2025-03-27T11:50:03.080Z"}
+{"level":"error","message":"Op is not defined - /api/auth/register - POST - ::ffff:127.0.0.1","service":"skillnet-exam-api","timestamp":"2025-03-27T11:51:54.232Z"}
+{"level":"error","message":"relation \"Users\" does not exist - /api/auth/register - POST - ::ffff:127.0.0.1","service":"skillnet-exam-api","timestamp":"2025-03-27T11:58:04.921Z"}
+{"level":"error","message":"relation \"Users\" does not exist - /api/auth/register - POST - ::ffff:127.0.0.1","service":"skillnet-exam-api","timestamp":"2025-03-27T11:58:41.906Z"}

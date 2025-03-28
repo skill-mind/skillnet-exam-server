@@ -1,0 +1,27 @@
+{"level":"info","message":"Server running on port 5001","service":"skillnet-exam-api","timestamp":"2025-03-27T11:39:34.313Z"}
+{"level":"info","message":"Server running on port 5001","service":"skillnet-exam-api","timestamp":"2025-03-27T11:43:20.369Z"}
+{"level":"info","message":"Server running on port 5001","service":"skillnet-exam-api","timestamp":"2025-03-27T11:43:22.869Z"}
+{"level":"info","message":"Server running on port 5001","service":"skillnet-exam-api","timestamp":"2025-03-27T11:43:42.035Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [27/Mar/2025:11:45:36 +0000] \"POST /api/auth/register HTTP/1.1\" 400 123 \"-\" \"vscode-restclient\"","service":"skillnet-exam-api","timestamp":"2025-03-27T11:45:36.816Z"}
+{"level":"info","message":"Server running on port 5001","service":"skillnet-exam-api","timestamp":"2025-03-27T11:47:30.623Z"}
+{"level":"info","message":"Server running on port 5001","service":"skillnet-exam-api","timestamp":"2025-03-27T11:48:58.258Z"}
+{"level":"info","message":"Server running on port 5001","service":"skillnet-exam-api","timestamp":"2025-03-27T11:49:14.016Z"}
+{"level":"info","message":"Server running on port 5001","service":"skillnet-exam-api","timestamp":"2025-03-27T11:49:16.695Z"}
+{"level":"info","message":"Server running on port 5001","service":"skillnet-exam-api","timestamp":"2025-03-27T11:49:17.812Z"}
+{"level":"info","message":"Server running on port 5001","service":"skillnet-exam-api","timestamp":"2025-03-27T11:49:20.767Z"}
+{"level":"info","message":"Server running on port 5001","service":"skillnet-exam-api","timestamp":"2025-03-27T11:49:23.774Z"}
+{"level":"info","message":"Server running on port 5001","service":"skillnet-exam-api","timestamp":"2025-03-27T11:49:25.362Z"}
+{"level":"info","message":"Server running on port 5001","service":"skillnet-exam-api","timestamp":"2025-03-27T11:49:30.182Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [27/Mar/2025:11:49:47 +0000] \"POST /api/auth/register HTTP/1.1\" 400 105 \"-\" \"vscode-restclient\"","service":"skillnet-exam-api","timestamp":"2025-03-27T11:49:47.472Z"}
+{"level":"error","message":"Op is not defined - /api/auth/register - POST - ::ffff:127.0.0.1","service":"skillnet-exam-api","timestamp":"2025-03-27T11:50:03.080Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [27/Mar/2025:11:50:03 +0000] \"POST /api/auth/register HTTP/1.1\" 200 765 \"-\" \"vscode-restclient\"","service":"skillnet-exam-api","timestamp":"2025-03-27T11:50:03.081Z"}
+{"level":"info","message":"Server running on port 5001","service":"skillnet-exam-api","timestamp":"2025-03-27T11:50:38.475Z"}
+{"level":"info","message":"Server running on port 5001","service":"skillnet-exam-api","timestamp":"2025-03-27T11:50:39.491Z"}
+{"level":"error","message":"Op is not defined - /api/auth/register - POST - ::ffff:127.0.0.1","service":"skillnet-exam-api","timestamp":"2025-03-27T11:51:54.232Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [27/Mar/2025:11:51:54 +0000] \"POST /api/auth/register HTTP/1.1\" 200 765 \"-\" \"vscode-restclient\"","service":"skillnet-exam-api","timestamp":"2025-03-27T11:51:54.235Z"}
+{"level":"info","message":"Server running on port 5001","service":"skillnet-exam-api","timestamp":"2025-03-27T11:57:50.345Z"}
+{"level":"info","message":"Server running on port 5001","service":"skillnet-exam-api","timestamp":"2025-03-27T11:57:52.896Z"}
+{"level":"error","message":"relation \"Users\" does not exist - /api/auth/register - POST - ::ffff:127.0.0.1","service":"skillnet-exam-api","timestamp":"2025-03-27T11:58:04.921Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [27/Mar/2025:11:58:04 +0000] \"POST /api/auth/register HTTP/1.1\" 200 900 \"-\" \"vscode-restclient\"","service":"skillnet-exam-api","timestamp":"2025-03-27T11:58:04.924Z"}
+{"level":"error","message":"relation \"Users\" does not exist - /api/auth/register - POST - ::ffff:127.0.0.1","service":"skillnet-exam-api","timestamp":"2025-03-27T11:58:41.906Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [27/Mar/2025:11:58:41 +0000] \"POST /api/auth/register HTTP/1.1\" 200 900 \"-\" \"vscode-restclient\"","service":"skillnet-exam-api","timestamp":"2025-03-27T11:58:41.907Z"}
