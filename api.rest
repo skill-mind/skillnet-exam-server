@@ -243,3 +243,183 @@ Authorization: Bearer {{authToken}}
 ### Generate certificate for a result
 GET {{baseUrl}}/results/certificate/{{resultId}}
 Authorization: Bearer {{authToken}}
+
+### Notification Routes ###
+
+### Get user's notifications
+GET {{baseUrl}}/notifications
+Authorization: Bearer {{authToken}}
+
+### Get notification by ID
+GET {{baseUrl}}/notifications/1
+Authorization: Bearer {{authToken}}
+
+### Create a notification (admin only)
+POST {{baseUrl}}/notifications
+Authorization: Bearer {{authToken}}
+Content-Type: application/json
+
+{
+  "title": "Important Announcement",
+  "message": "The platform will be under maintenance this weekend.",
+  "type": "info",
+  "userId": null
+}
+
+### Create a notification for specific user (admin only)
+POST {{baseUrl}}/notifications
+Authorization: Bearer {{authToken}}
+Content-Type: application/json
+
+{
+  "title": "Exam Reminder",
+  "message": "Your JavaScript exam is scheduled tomorrow.",
+  "type": "warning",
+  "userId": "cacbe71d-c5db-432e-8f4b-ea61430d48cf"
+}
+
+### Update a notification (admin only)
+PUT {{baseUrl}}/notifications/702e787c-0781-4c8b-b68b-c5896f5e73e4
+Authorization: Bearer {{authToken}}
+Content-Type: application/json
+
+{
+  "title": "Updated Announcement",
+  "message": "Maintenance rescheduled for next week.",
+  "isRead": false
+}
+
+### Mark notification as read
+PATCH {{baseUrl}}/notifications/1/read
+Authorization: Bearer {{authToken}}
+
+### Delete a notification (admin only)
+DELETE {{baseUrl}}/notifications/1
+Authorization: Bearer {{authToken}}
+
+### Exam Banner Routes ###
+
+### Get all exam banners
+GET {{baseUrl}}/exam-banners
+
+### Get only active exam banners
+GET {{baseUrl}}/exam-banners?active=true
+
+### Get exam banner by ID
+GET {{baseUrl}}/exam-banners/1
+
+### Create an exam banner (admin only)
+POST {{baseUrl}}/exam-banners
+Authorization: Bearer {{authToken}}
+Content-Type: application/json
+
+{
+  "title": "New JavaScript Course",
+  "description": "Master JavaScript in 30 days",
+  "imageUrl": "https://example.com/banner.jpg",
+  "startDate": "2025-04-30T00:00:00.000Z",
+  "endDate": "2025-05-30T00:00:00.000Z",
+  "isActive": true,
+  "examId": "{{examId}}",
+  "buttonText": "Register Now",
+  "buttonLink": "/exams/{{examId}}",
+  "priority": 10
+}
+
+### Update an exam banner (admin only)
+PUT {{baseUrl}}/exam-banners/1
+Authorization: Bearer {{authToken}}
+Content-Type: application/json
+
+{
+  "title": "Updated JavaScript Course Banner",
+  "description": "Learn JavaScript in just 2 weeks!",
+  "isActive": false
+}
+
+### Delete an exam banner (admin only)
+DELETE {{baseUrl}}/exam-banners/1
+Authorization: Bearer {{authToken}}
+
+### Exam Recording Routes ###
+
+### Get all exam recordings
+GET {{baseUrl}}/exam-recordings
+
+### Get published exam recordings
+GET {{baseUrl}}/exam-recordings?published=true
+
+### Get exam recordings by exam ID
+GET {{baseUrl}}/exam-recordings?examId={{examId}}
+
+### Get exam recording by ID
+GET {{baseUrl}}/exam-recordings/1
+
+### Create an exam recording (admin only)
+POST {{baseUrl}}/exam-recordings
+Authorization: Bearer {{authToken}}
+Content-Type: application/json
+
+{
+  "title": "JavaScript Fundamentals Workshop",
+  "description": "A comprehensive workshop covering JavaScript basics",
+  "recordingUrl": "https://example.com/recordings/js-fundamentals",
+  "duration": 90,
+  "examId": "{{examId}}",
+  "presenter": "John Doe",
+  "recordedOn": "2025-04-15T14:00:00.000Z",
+  "isPublished": true,
+  "thumbnailUrl": "https://example.com/thumbnails/js-workshop.jpg",
+  "tags": ["javascript", "beginner", "workshop"]
+}
+
+### Update an exam recording (admin only)
+PUT {{baseUrl}}/exam-recordings/1
+Authorization: Bearer {{authToken}}
+Content-Type: application/json
+
+{
+  "title": "Advanced JavaScript Concepts",
+  "description": "Updated workshop with advanced topics",
+  "isPublished": false
+}
+
+### Toggle publish status of an exam recording (admin only)
+PATCH {{baseUrl}}/exam-recordings/1/publish
+Authorization: Bearer {{authToken}}
+
+### Delete an exam recording (admin only)
+DELETE {{baseUrl}}/exam-recordings/1
+Authorization: Bearer {{authToken}}
+
+### Starknet Indexer Testing ###
+
+### Query the last indexed block (helpful for monitoring indexer progress)
+GET {{baseUrl}}/indexer/status
+Authorization: Bearer {{authToken}}
+
+### Manually trigger indexer to scan for events (admin only)
+POST {{baseUrl}}/indexer/scan
+Authorization: Bearer {{authToken}}
+Content-Type: application/json
+
+{
+  "fromBlock": "latest",
+  "toBlock": "latest"
+}
+
+### Get Starknet contract events
+GET {{baseUrl}}/indexer/events?eventName=ExamCreated
+Authorization: Bearer {{authToken}}
+
+### Get Starknet exams indexed from blockchain
+GET {{baseUrl}}/indexer/exams
+Authorization: Bearer {{authToken}}
+
+### Get Starknet user registrations indexed from blockchain
+GET {{baseUrl}}/indexer/registrations?examId={{examId}}
+Authorization: Bearer {{authToken}}
+
+### Get Starknet exam results indexed from blockchain
+GET {{baseUrl}}/indexer/results?examId={{examId}}
+Authorization: Bearer {{authToken}}

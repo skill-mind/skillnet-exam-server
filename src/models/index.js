@@ -8,6 +8,10 @@ const Registration = require('./registration.model')(sequelize, DataTypes);
 const Result = require('./result.model')(sequelize, DataTypes);
 const Question = require('./question.model')(sequelize, DataTypes);
 const Option = require('./option.model')(sequelize, DataTypes);
+const Notification = require('./notification.model')(sequelize, DataTypes);
+const ExamBanner = require('./examBanner.model')(sequelize, DataTypes);
+const ExamRecording = require('./examRecording.model')(sequelize, DataTypes);
+const ContractEvent = require('./contractEvent.model')(sequelize, DataTypes);
 
 // Define associations
 User.hasMany(Registration, { foreignKey: 'userId' });
@@ -31,6 +35,16 @@ Result.belongsTo(User, { foreignKey: 'userId' });
 Exam.hasMany(Result, { foreignKey: 'examId' });
 Result.belongsTo(Exam, { foreignKey: 'examId' });
 
+// New associations
+User.hasMany(Notification, { foreignKey: 'userId' });
+Notification.belongsTo(User, { foreignKey: 'userId' });
+
+Exam.hasMany(ExamBanner, { foreignKey: 'examId' });
+ExamBanner.belongsTo(Exam, { foreignKey: 'examId' });
+
+Exam.hasMany(ExamRecording, { foreignKey: 'examId' });
+ExamRecording.belongsTo(Exam, { foreignKey: 'examId' });
+
 // Sync all models with database
 const syncDatabase = async () => {
   try {
@@ -49,5 +63,9 @@ module.exports = {
   Result,
   Question,
   Option,
+  Notification,
+  ExamBanner,
+  ExamRecording,
+  ContractEvent,
   syncDatabase,
 };
