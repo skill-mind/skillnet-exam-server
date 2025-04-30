@@ -25,3 +25,879 @@
 {"level":"info","message":"::ffff:127.0.0.1 - - [27/Mar/2025:11:58:04 +0000] \"POST /api/auth/register HTTP/1.1\" 200 900 \"-\" \"vscode-restclient\"","service":"skillnet-exam-api","timestamp":"2025-03-27T11:58:04.924Z"}
 {"level":"error","message":"relation \"Users\" does not exist - /api/auth/register - POST - ::ffff:127.0.0.1","service":"skillnet-exam-api","timestamp":"2025-03-27T11:58:41.906Z"}
 {"level":"info","message":"::ffff:127.0.0.1 - - [27/Mar/2025:11:58:41 +0000] \"POST /api/auth/register HTTP/1.1\" 200 900 \"-\" \"vscode-restclient\"","service":"skillnet-exam-api","timestamp":"2025-03-27T11:58:41.907Z"}
+2025-04-28 07:22:03 [info]: Starknet indexer configured for network: development {"service":"skillnet-exam-server"}
+2025-04-28 07:22:03 [info]: Monitoring 1 Starknet contracts {"service":"skillnet-exam-server"}
+2025-04-28 07:23:00 [info]: Starknet indexer configured for network: development {"service":"skillnet-exam-server"}
+2025-04-28 07:23:00 [info]: Monitoring 1 Starknet contracts {"service":"skillnet-exam-server"}
+2025-04-28 07:23:02 [info]: Starknet indexer configured for network: development {"service":"skillnet-exam-server"}
+2025-04-28 07:25:57 [info]: Starknet indexer configured for network: development {"service":"skillnet-exam-server"}
+2025-04-28 07:26:08 [info]: Starknet indexer configured for network: development {"service":"skillnet-exam-server"}
+2025-04-28 07:30:17 [info]: Starknet indexer configured for network: development {"service":"skillnet-exam-server"}
+2025-04-28 07:30:49 [info]: Starknet indexer configured for network: development {"service":"skillnet-exam-server"}
+2025-04-28 07:30:55 [info]: Starknet indexer configured for network: development {"service":"skillnet-exam-server"}
+2025-04-28 07:30:55 [info]: Monitoring 1 Starknet contracts {"service":"skillnet-exam-server"}
+2025-04-28 07:33:01 [info]: Starknet indexer configured for network: development {"service":"skillnet-exam-server"}
+2025-04-28 07:36:18 [info]: Starknet indexer configured for network: development {"service":"skillnet-exam-server"}
+2025-04-28 07:36:27 [info]: Starknet indexer configured for network: development {"service":"skillnet-exam-server"}
+2025-04-28 07:36:35 [info]: Starknet indexer configured for network: development {"service":"skillnet-exam-server"}
+2025-04-28 07:38:39 [info]: Starknet indexer configured for network: development {"service":"skillnet-exam-server"}
+2025-04-28 07:38:39 [info]: Monitoring 1 Starknet contracts {"service":"skillnet-exam-server"}
+2025-04-28 09:45:37 [info]: Starknet indexer configured for network: development {"service":"skillnet-exam-server"}
+2025-04-28 09:48:35 [info]: Starknet indexer configured for network: goerli {"service":"skillnet-exam-server"}
+2025-04-28 09:51:04 [info]: Starknet indexer configured for network: goerli {"service":"skillnet-exam-server"}
+2025-04-28 09:51:19 [info]: Starknet indexer configured for network: goerli {"service":"skillnet-exam-server"}
+2025-04-28 09:51:19 [info]: Monitoring 1 Starknet contracts {"service":"skillnet-exam-server"}
+2025-04-28 09:51:28 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 09:51:28 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 09:51:29 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 09:51:29 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 09:51:29 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 09:51:29 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 09:52:07 [info]: Starknet indexer configured for network: goerli {"service":"skillnet-exam-server"}
+2025-04-28 09:53:04 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 09:53:04 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 09:53:04 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 09:53:04 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 09:53:04 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 09:53:04 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 09:53:53 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 09:53:53 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 09:53:53 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 09:53:53 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 09:53:53 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 09:53:53 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 09:53:53 [info]: Initializing Express app... {"service":"skillnet-exam-server"}
+2025-04-28 09:53:53 [info]: Setting up Swagger documentation... {"service":"skillnet-exam-server"}
+2025-04-28 09:53:53 [info]: Swagger documentation set up successfully {"service":"skillnet-exam-server"}
+2025-04-28 09:53:53 [info]: Setting up API routes... {"service":"skillnet-exam-server"}
+2025-04-28 09:53:53 [info]: Starknet indexer configured for network: goerli {"service":"skillnet-exam-server"}
+2025-04-28 09:53:53 [info]: Monitoring 1 Starknet contracts {"service":"skillnet-exam-server"}
+2025-04-28 09:53:53 [info]: API routes set up successfully {"service":"skillnet-exam-server"}
+2025-04-28 09:53:53 [info]: Attempting to start server on port 5001... {"service":"skillnet-exam-server"}
+2025-04-28 09:53:53 [info]: Server running on port 5001 {"service":"skillnet-exam-server"}
+2025-04-28 09:53:58 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 09:53:58 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 09:53:58 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 09:53:58 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 09:53:58 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 09:53:58 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 09:53:58 [info]: Initializing Express app... {"service":"skillnet-exam-server"}
+2025-04-28 09:53:58 [info]: Setting up Swagger documentation... {"service":"skillnet-exam-server"}
+2025-04-28 09:53:58 [info]: Swagger documentation set up successfully {"service":"skillnet-exam-server"}
+2025-04-28 09:53:58 [info]: Setting up API routes... {"service":"skillnet-exam-server"}
+2025-04-28 09:53:58 [info]: Starknet indexer configured for network: goerli {"service":"skillnet-exam-server"}
+2025-04-28 09:53:58 [info]: Monitoring 1 Starknet contracts {"service":"skillnet-exam-server"}
+2025-04-28 09:53:58 [info]: API routes set up successfully {"service":"skillnet-exam-server"}
+2025-04-28 09:53:58 [info]: Attempting to start server on port 5001... {"service":"skillnet-exam-server"}
+2025-04-28 09:53:58 [info]: Server running on port 5001 {"service":"skillnet-exam-server"}
+2025-04-28 09:54:52 [error]: Not authorized, token failed - /api/notifications - GET - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:54:52 [error]: Not authorized, token failed - /api/notifications - GET - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:54:52 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:54:52 +0000] "GET /api/notifications HTTP/1.1" 401 - "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:54:52 [error]: Not authorized, token failed - /api/notifications - GET - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:54:52 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:54:52 +0000] "GET /api/notifications HTTP/1.1" 401 - "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:54:52 [error]: Not authorized, token failed - /api/notifications - GET - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:54:52 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:54:52 +0000] "GET /api/notifications HTTP/1.1" 401 - "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:54:52 [error]: Not authorized, token failed - /api/notifications - GET - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:54:52 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:54:52 +0000] "GET /api/notifications HTTP/1.1" 401 - "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:54:52 [error]: Not authorized, token failed - /api/notifications - GET - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:54:52 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:54:52 +0000] "GET /api/notifications HTTP/1.1" 401 - "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:54:52 [error]: Not authorized, token failed - /api/notifications - GET - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:54:52 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:54:52 +0000] "GET /api/notifications HTTP/1.1" 401 - "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:54:52 [error]: Not authorized, token failed - /api/notifications - GET - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:54:52 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:54:52 +0000] "GET /api/notifications HTTP/1.1" 401 - "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:54:52 [error]: Not authorized, token failed - /api/notifications - GET - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:54:52 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:54:52 +0000] "GET /api/notifications HTTP/1.1" 401 - "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:54:52 [error]: Not authorized, token failed - /api/notifications/1 - GET - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:54:52 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:54:52 +0000] "GET /api/notifications HTTP/1.1" 401 - "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:54:52 [error]: Not authorized, token failed - /api/notifications/1 - GET - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:54:52 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:54:52 +0000] "GET /api/notifications/1 HTTP/1.1" 401 - "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:54:52 [error]: Not authorized, token failed - /api/notifications/1 - GET - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:54:52 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:54:52 +0000] "GET /api/notifications/1 HTTP/1.1" 401 - "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:54:52 [error]: Not authorized, token failed - /api/notifications/1 - GET - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:54:52 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:54:52 +0000] "GET /api/notifications/1 HTTP/1.1" 401 - "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:54:52 [error]: Not authorized, token failed - /api/notifications/1 - GET - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:54:52 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:54:52 +0000] "GET /api/notifications/1 HTTP/1.1" 401 - "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:54:52 [error]: Not authorized, token failed - /api/notifications - POST - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:54:52 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:54:52 +0000] "GET /api/notifications/1 HTTP/1.1" 401 - "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:54:52 [error]: Not authorized, token failed - /api/notifications - POST - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:54:52 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:54:52 +0000] "POST /api/notifications HTTP/1.1" 401 - "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:54:52 [error]: Not authorized, token failed - /api/notifications - POST - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:54:52 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:54:52 +0000] "POST /api/notifications HTTP/1.1" 401 - "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:54:52 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:54:52 +0000] "POST /api/notifications HTTP/1.1" 401 - "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:54:54 [error]: Invalid credentials - /api/auth/login - POST - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:54:54 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:54:54 +0000] "POST /api/auth/login HTTP/1.1" 401 253 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:54:54 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:54:54 +0000] "POST /api/auth/register HTTP/1.1" 201 129 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:54:54 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:54:54 +0000] "POST /api/auth/register HTTP/1.1" 201 139 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:55:21 [error]: Not authorized, token failed - /api/auth/profile - GET - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:55:21 [error]: Not authorized, token failed - /api/auth/profile - GET - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:55:21 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:55:21 +0000] "GET /api/auth/profile HTTP/1.1" 401 - "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:55:21 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:55:21 +0000] "GET /api/auth/profile HTTP/1.1" 401 - "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:55:21 [error]: Not authorized, token failed - /api/users/profile - GET - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:55:21 [error]: Not authorized, token failed - /api/auth/profile - GET - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:55:21 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:55:21 +0000] "GET /api/users/profile HTTP/1.1" 401 - "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:55:21 [error]: Not authorized, token failed - /api/users/profile - GET - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:55:21 [error]: User already exists - /api/auth/register - POST - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:55:21 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:55:21 +0000] "POST /api/auth/register HTTP/1.1" 400 253 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:55:21 [error]: User already exists - /api/auth/register - POST - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:55:21 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:55:21 +0000] "POST /api/auth/register HTTP/1.1" 400 253 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:55:21 [error]: User already exists - /api/auth/register - POST - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:55:21 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:55:21 +0000] "POST /api/auth/register HTTP/1.1" 400 253 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:55:21 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:55:21 +0000] "GET /api/auth/profile HTTP/1.1" 401 - "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:55:21 [error]: Not authorized, token failed - /api/users/profile - GET - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:55:21 [error]: User already exists - /api/auth/register - POST - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:55:21 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:55:21 +0000] "POST /api/auth/register HTTP/1.1" 400 253 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:55:21 [error]: User already exists - /api/auth/register - POST - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:55:21 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:55:21 +0000] "POST /api/auth/register HTTP/1.1" 400 253 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:55:21 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:55:21 +0000] "POST /api/auth/login HTTP/1.1" 200 327 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:55:21 [error]: User already exists - /api/auth/register - POST - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:55:21 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:55:21 +0000] "POST /api/auth/register HTTP/1.1" 400 253 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:55:21 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:55:21 +0000] "GET /api/users/profile HTTP/1.1" 401 - "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:55:21 [error]: Not authorized, token failed - /api/exams - POST - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:55:21 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:55:21 +0000] "POST /api/auth/login HTTP/1.1" 200 327 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:55:21 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:55:21 +0000] "POST /api/auth/login HTTP/1.1" 200 327 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:55:21 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:55:21 +0000] "POST /api/auth/login HTTP/1.1" 200 327 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:55:21 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:55:21 +0000] "POST /api/auth/login HTTP/1.1" 200 337 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:55:21 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:55:21 +0000] "GET /api/users/profile HTTP/1.1" 401 - "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:55:21 [error]: Not authorized, token failed - /api/exams - POST - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:55:21 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:55:21 +0000] "POST /api/auth/login HTTP/1.1" 200 337 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:55:21 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:55:21 +0000] "POST /api/auth/login HTTP/1.1" 200 337 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:55:21 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:55:21 +0000] "POST /api/auth/login HTTP/1.1" 200 337 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:55:21 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:55:21 +0000] "POST /api/exams HTTP/1.1" 401 - "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:55:21 [error]: Not authorized, token failed - /api/exams - POST - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:55:21 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:55:21 +0000] "POST /api/exams HTTP/1.1" 401 - "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:55:21 [error]: Not authorized, token failed - /api/exams - POST - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:55:21 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:55:21 +0000] "POST /api/exams HTTP/1.1" 401 - "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:55:21 [error]: Not authorized, token failed - /api/exams - POST - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:55:21 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:55:21 +0000] "POST /api/exams HTTP/1.1" 401 - "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:55:21 [error]: Not authorized, token failed - /api/exams - POST - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:55:21 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:55:21 +0000] "POST /api/exams HTTP/1.1" 401 - "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:55:21 [error]: Not authorized, token failed - /api/exams - POST - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:55:21 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:55:21 +0000] "POST /api/exams HTTP/1.1" 401 - "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:55:21 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:55:21 +0000] "POST /api/exams HTTP/1.1" 401 - "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:55:37 [error]: User already exists - /api/auth/register - POST - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:55:37 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:55:37 +0000] "POST /api/auth/register HTTP/1.1" 400 253 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:55:50 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:55:50 +0000] "POST /api/auth/login HTTP/1.1" 200 327 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:56:22 [error]: User already exists - /api/auth/register - POST - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:56:22 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:56:22 +0000] "POST /api/auth/register HTTP/1.1" 400 253 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:56:31 [error]: User already exists - /api/auth/register - POST - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:56:31 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:56:31 +0000] "POST /api/auth/register HTTP/1.1" 400 253 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:56:31 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:56:31 +0000] "POST /api/auth/login HTTP/1.1" 200 337 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:56:31 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:56:31 +0000] "POST /api/auth/login HTTP/1.1" 200 337 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:56:31 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:56:31 +0000] "POST /api/auth/login HTTP/1.1" 200 337 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:56:52 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:56:52 +0000] "GET /api/auth/profile HTTP/1.1" 200 217 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:56:52 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:56:52 +0000] "GET /api/auth/profile HTTP/1.1" 200 217 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:56:52 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:56:52 +0000] "GET /api/auth/profile HTTP/1.1" 200 217 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:56:52 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:56:52 +0000] "GET /api/auth/profile HTTP/1.1" 200 217 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:56:52 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:56:52 +0000] "GET /api/auth/profile HTTP/1.1" 200 217 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:56:52 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:56:52 +0000] "GET /api/auth/profile HTTP/1.1" 200 217 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:56:52 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:56:52 +0000] "GET /api/auth/profile HTTP/1.1" 200 217 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:57:38 [info]: Admin 5c2d2543-8f3c-445a-a96a-707f4747f24d creating notification: "Important Announcement" for user all users {"service":"skillnet-exam-server"}
+2025-04-28 09:57:38 [info]: Created notification 613d0807-419d-4e04-bb0b-2bb181ee4ace for user all users by admin 5c2d2543-8f3c-445a-a96a-707f4747f24d {"service":"skillnet-exam-server","notificationId":"613d0807-419d-4e04-bb0b-2bb181ee4ace","targetUserId":null,"adminId":"5c2d2543-8f3c-445a-a96a-707f4747f24d","notificationType":"info"}
+2025-04-28 09:57:38 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:57:38 +0000] "POST /api/notifications HTTP/1.1" 201 281 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:57:56 [info]: User 5c2d2543-8f3c-445a-a96a-707f4747f24d requesting their notifications {"service":"skillnet-exam-server"}
+2025-04-28 09:57:56 [info]: Retrieved 0 notifications for user 5c2d2543-8f3c-445a-a96a-707f4747f24d {"service":"skillnet-exam-server"}
+2025-04-28 09:57:56 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:57:56 +0000] "GET /api/notifications HTTP/1.1" 200 2 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:58:02 [info]: User 5c2d2543-8f3c-445a-a96a-707f4747f24d requesting notification 1 {"service":"skillnet-exam-server"}
+2025-04-28 09:58:02 [error]: Error retrieving notification 1 for user 5c2d2543-8f3c-445a-a96a-707f4747f24d: invalid input syntax for type uuid: "1" {"service":"skillnet-exam-server","notificationId":"1","userId":"5c2d2543-8f3c-445a-a96a-707f4747f24d","error":"Error\n    at Query.run (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/dialects/postgres/query.js:50:25)\n    at /Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/sequelize.js:315:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async PostgresQueryInterface.select (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)\n    at async Notification.findAll (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/model.js:1140:21)\n    at async Notification.findOne (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/model.js:1240:12)\n    at async /Users/bene/Desktop/OnlyDust/skillnet-exam-server/src/controllers/notification.controller.js:39:26"}
+2025-04-28 09:58:02 [error]: Error retrieving notification - /api/notifications/1 - GET - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:58:02 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:58:02 +0000] "GET /api/notifications/1 HTTP/1.1" 500 281 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:58:23 [info]: Admin 5c2d2543-8f3c-445a-a96a-707f4747f24d creating notification: "Important Announcement" for user all users {"service":"skillnet-exam-server"}
+2025-04-28 09:58:23 [info]: Admin 5c2d2543-8f3c-445a-a96a-707f4747f24d creating notification: "Important Announcement" for user all users {"service":"skillnet-exam-server"}
+2025-04-28 09:58:23 [info]: Admin 5c2d2543-8f3c-445a-a96a-707f4747f24d creating notification: "Important Announcement" for user all users {"service":"skillnet-exam-server"}
+2025-04-28 09:58:23 [info]: Admin 5c2d2543-8f3c-445a-a96a-707f4747f24d creating notification: "Important Announcement" for user all users {"service":"skillnet-exam-server"}
+2025-04-28 09:58:23 [info]: Admin 5c2d2543-8f3c-445a-a96a-707f4747f24d creating notification: "Important Announcement" for user all users {"service":"skillnet-exam-server"}
+2025-04-28 09:58:23 [info]: Created notification 089b2984-1c8e-4b2c-accf-144f76464c56 for user all users by admin 5c2d2543-8f3c-445a-a96a-707f4747f24d {"service":"skillnet-exam-server","notificationId":"089b2984-1c8e-4b2c-accf-144f76464c56","targetUserId":null,"adminId":"5c2d2543-8f3c-445a-a96a-707f4747f24d","notificationType":"info"}
+2025-04-28 09:58:23 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:58:23 +0000] "POST /api/notifications HTTP/1.1" 201 281 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:58:23 [info]: Created notification 31cba26a-0002-41f0-9813-02f499b7d676 for user all users by admin 5c2d2543-8f3c-445a-a96a-707f4747f24d {"service":"skillnet-exam-server","notificationId":"31cba26a-0002-41f0-9813-02f499b7d676","targetUserId":null,"adminId":"5c2d2543-8f3c-445a-a96a-707f4747f24d","notificationType":"info"}
+2025-04-28 09:58:23 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:58:23 +0000] "POST /api/notifications HTTP/1.1" 201 281 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:58:23 [info]: Created notification 212f0ad4-a69b-47ba-8b60-edf0b9325fb8 for user all users by admin 5c2d2543-8f3c-445a-a96a-707f4747f24d {"service":"skillnet-exam-server","notificationId":"212f0ad4-a69b-47ba-8b60-edf0b9325fb8","targetUserId":null,"adminId":"5c2d2543-8f3c-445a-a96a-707f4747f24d","notificationType":"info"}
+2025-04-28 09:58:23 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:58:23 +0000] "POST /api/notifications HTTP/1.1" 201 281 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:58:23 [info]: Created notification b9b5b618-303b-4d3f-8776-a7057f639d21 for user all users by admin 5c2d2543-8f3c-445a-a96a-707f4747f24d {"service":"skillnet-exam-server","notificationId":"b9b5b618-303b-4d3f-8776-a7057f639d21","targetUserId":null,"adminId":"5c2d2543-8f3c-445a-a96a-707f4747f24d","notificationType":"info"}
+2025-04-28 09:58:23 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:58:23 +0000] "POST /api/notifications HTTP/1.1" 201 281 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:58:23 [info]: Created notification a4a718e0-97f5-4f0d-9420-fad789fb8509 for user all users by admin 5c2d2543-8f3c-445a-a96a-707f4747f24d {"service":"skillnet-exam-server","notificationId":"a4a718e0-97f5-4f0d-9420-fad789fb8509","targetUserId":null,"adminId":"5c2d2543-8f3c-445a-a96a-707f4747f24d","notificationType":"info"}
+2025-04-28 09:58:23 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:58:23 +0000] "POST /api/notifications HTTP/1.1" 201 281 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:59:22 [info]: User 5c2d2543-8f3c-445a-a96a-707f4747f24d requesting notification a4a718e0-97f5-4f0d-9420-fad789fb8509 {"service":"skillnet-exam-server"}
+2025-04-28 09:59:22 [info]: User 5c2d2543-8f3c-445a-a96a-707f4747f24d requesting notification a4a718e0-97f5-4f0d-9420-fad789fb8509 {"service":"skillnet-exam-server"}
+2025-04-28 09:59:22 [info]: User 5c2d2543-8f3c-445a-a96a-707f4747f24d requesting notification a4a718e0-97f5-4f0d-9420-fad789fb8509 {"service":"skillnet-exam-server"}
+2025-04-28 09:59:22 [info]: User 5c2d2543-8f3c-445a-a96a-707f4747f24d requesting notification a4a718e0-97f5-4f0d-9420-fad789fb8509 {"service":"skillnet-exam-server"}
+2025-04-28 09:59:22 [info]: User 5c2d2543-8f3c-445a-a96a-707f4747f24d requesting notification a4a718e0-97f5-4f0d-9420-fad789fb8509 {"service":"skillnet-exam-server"}
+2025-04-28 09:59:22 [info]: User 5c2d2543-8f3c-445a-a96a-707f4747f24d requesting notification a4a718e0-97f5-4f0d-9420-fad789fb8509 {"service":"skillnet-exam-server"}
+2025-04-28 09:59:22 [info]: User 5c2d2543-8f3c-445a-a96a-707f4747f24d requesting notification a4a718e0-97f5-4f0d-9420-fad789fb8509 {"service":"skillnet-exam-server"}
+2025-04-28 09:59:22 [info]: User 5c2d2543-8f3c-445a-a96a-707f4747f24d requesting notification a4a718e0-97f5-4f0d-9420-fad789fb8509 {"service":"skillnet-exam-server"}
+2025-04-28 09:59:22 [info]: User 5c2d2543-8f3c-445a-a96a-707f4747f24d requesting notification a4a718e0-97f5-4f0d-9420-fad789fb8509 {"service":"skillnet-exam-server"}
+2025-04-28 09:59:22 [info]: User 5c2d2543-8f3c-445a-a96a-707f4747f24d requesting notification a4a718e0-97f5-4f0d-9420-fad789fb8509 {"service":"skillnet-exam-server"}
+2025-04-28 09:59:22 [info]: User 5c2d2543-8f3c-445a-a96a-707f4747f24d requesting notification a4a718e0-97f5-4f0d-9420-fad789fb8509 {"service":"skillnet-exam-server"}
+2025-04-28 09:59:22 [warn]: Notification with id a4a718e0-97f5-4f0d-9420-fad789fb8509 not found for user 5c2d2543-8f3c-445a-a96a-707f4747f24d {"service":"skillnet-exam-server","notificationId":"a4a718e0-97f5-4f0d-9420-fad789fb8509","userId":"5c2d2543-8f3c-445a-a96a-707f4747f24d"}
+2025-04-28 09:59:22 [error]: Notification not found - /api/notifications/a4a718e0-97f5-4f0d-9420-fad789fb8509 - GET - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:59:22 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:59:22 +0000] "GET /api/notifications/a4a718e0-97f5-4f0d-9420-fad789fb8509 HTTP/1.1" 404 267 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:59:22 [info]: User 5c2d2543-8f3c-445a-a96a-707f4747f24d requesting notification a4a718e0-97f5-4f0d-9420-fad789fb8509 {"service":"skillnet-exam-server"}
+2025-04-28 09:59:22 [warn]: Notification with id a4a718e0-97f5-4f0d-9420-fad789fb8509 not found for user 5c2d2543-8f3c-445a-a96a-707f4747f24d {"service":"skillnet-exam-server","notificationId":"a4a718e0-97f5-4f0d-9420-fad789fb8509","userId":"5c2d2543-8f3c-445a-a96a-707f4747f24d"}
+2025-04-28 09:59:22 [error]: Notification not found - /api/notifications/a4a718e0-97f5-4f0d-9420-fad789fb8509 - GET - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:59:22 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:59:22 +0000] "GET /api/notifications/a4a718e0-97f5-4f0d-9420-fad789fb8509 HTTP/1.1" 404 267 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:59:22 [warn]: Notification with id a4a718e0-97f5-4f0d-9420-fad789fb8509 not found for user 5c2d2543-8f3c-445a-a96a-707f4747f24d {"service":"skillnet-exam-server","notificationId":"a4a718e0-97f5-4f0d-9420-fad789fb8509","userId":"5c2d2543-8f3c-445a-a96a-707f4747f24d"}
+2025-04-28 09:59:22 [error]: Notification not found - /api/notifications/a4a718e0-97f5-4f0d-9420-fad789fb8509 - GET - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:59:22 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:59:22 +0000] "GET /api/notifications/a4a718e0-97f5-4f0d-9420-fad789fb8509 HTTP/1.1" 404 267 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:59:22 [warn]: Notification with id a4a718e0-97f5-4f0d-9420-fad789fb8509 not found for user 5c2d2543-8f3c-445a-a96a-707f4747f24d {"service":"skillnet-exam-server","notificationId":"a4a718e0-97f5-4f0d-9420-fad789fb8509","userId":"5c2d2543-8f3c-445a-a96a-707f4747f24d"}
+2025-04-28 09:59:22 [error]: Notification not found - /api/notifications/a4a718e0-97f5-4f0d-9420-fad789fb8509 - GET - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:59:22 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:59:22 +0000] "GET /api/notifications/a4a718e0-97f5-4f0d-9420-fad789fb8509 HTTP/1.1" 404 267 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:59:22 [warn]: Notification with id a4a718e0-97f5-4f0d-9420-fad789fb8509 not found for user 5c2d2543-8f3c-445a-a96a-707f4747f24d {"service":"skillnet-exam-server","notificationId":"a4a718e0-97f5-4f0d-9420-fad789fb8509","userId":"5c2d2543-8f3c-445a-a96a-707f4747f24d"}
+2025-04-28 09:59:22 [error]: Notification not found - /api/notifications/a4a718e0-97f5-4f0d-9420-fad789fb8509 - GET - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:59:22 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:59:22 +0000] "GET /api/notifications/a4a718e0-97f5-4f0d-9420-fad789fb8509 HTTP/1.1" 404 267 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:59:22 [warn]: Notification with id a4a718e0-97f5-4f0d-9420-fad789fb8509 not found for user 5c2d2543-8f3c-445a-a96a-707f4747f24d {"service":"skillnet-exam-server","notificationId":"a4a718e0-97f5-4f0d-9420-fad789fb8509","userId":"5c2d2543-8f3c-445a-a96a-707f4747f24d"}
+2025-04-28 09:59:22 [error]: Notification not found - /api/notifications/a4a718e0-97f5-4f0d-9420-fad789fb8509 - GET - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:59:22 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:59:22 +0000] "GET /api/notifications/a4a718e0-97f5-4f0d-9420-fad789fb8509 HTTP/1.1" 404 267 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:59:22 [warn]: Notification with id a4a718e0-97f5-4f0d-9420-fad789fb8509 not found for user 5c2d2543-8f3c-445a-a96a-707f4747f24d {"service":"skillnet-exam-server","notificationId":"a4a718e0-97f5-4f0d-9420-fad789fb8509","userId":"5c2d2543-8f3c-445a-a96a-707f4747f24d"}
+2025-04-28 09:59:22 [error]: Notification not found - /api/notifications/a4a718e0-97f5-4f0d-9420-fad789fb8509 - GET - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:59:22 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:59:22 +0000] "GET /api/notifications/a4a718e0-97f5-4f0d-9420-fad789fb8509 HTTP/1.1" 404 267 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:59:22 [warn]: Notification with id a4a718e0-97f5-4f0d-9420-fad789fb8509 not found for user 5c2d2543-8f3c-445a-a96a-707f4747f24d {"service":"skillnet-exam-server","notificationId":"a4a718e0-97f5-4f0d-9420-fad789fb8509","userId":"5c2d2543-8f3c-445a-a96a-707f4747f24d"}
+2025-04-28 09:59:22 [error]: Notification not found - /api/notifications/a4a718e0-97f5-4f0d-9420-fad789fb8509 - GET - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:59:22 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:59:22 +0000] "GET /api/notifications/a4a718e0-97f5-4f0d-9420-fad789fb8509 HTTP/1.1" 404 267 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:59:22 [warn]: Notification with id a4a718e0-97f5-4f0d-9420-fad789fb8509 not found for user 5c2d2543-8f3c-445a-a96a-707f4747f24d {"service":"skillnet-exam-server","notificationId":"a4a718e0-97f5-4f0d-9420-fad789fb8509","userId":"5c2d2543-8f3c-445a-a96a-707f4747f24d"}
+2025-04-28 09:59:22 [error]: Notification not found - /api/notifications/a4a718e0-97f5-4f0d-9420-fad789fb8509 - GET - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:59:22 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:59:22 +0000] "GET /api/notifications/a4a718e0-97f5-4f0d-9420-fad789fb8509 HTTP/1.1" 404 267 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:59:22 [warn]: Notification with id a4a718e0-97f5-4f0d-9420-fad789fb8509 not found for user 5c2d2543-8f3c-445a-a96a-707f4747f24d {"service":"skillnet-exam-server","notificationId":"a4a718e0-97f5-4f0d-9420-fad789fb8509","userId":"5c2d2543-8f3c-445a-a96a-707f4747f24d"}
+2025-04-28 09:59:22 [error]: Notification not found - /api/notifications/a4a718e0-97f5-4f0d-9420-fad789fb8509 - GET - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:59:22 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:59:22 +0000] "GET /api/notifications/a4a718e0-97f5-4f0d-9420-fad789fb8509 HTTP/1.1" 404 267 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:59:22 [warn]: Notification with id a4a718e0-97f5-4f0d-9420-fad789fb8509 not found for user 5c2d2543-8f3c-445a-a96a-707f4747f24d {"service":"skillnet-exam-server","notificationId":"a4a718e0-97f5-4f0d-9420-fad789fb8509","userId":"5c2d2543-8f3c-445a-a96a-707f4747f24d"}
+2025-04-28 09:59:22 [error]: Notification not found - /api/notifications/a4a718e0-97f5-4f0d-9420-fad789fb8509 - GET - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:59:22 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:59:22 +0000] "GET /api/notifications/a4a718e0-97f5-4f0d-9420-fad789fb8509 HTTP/1.1" 404 267 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:59:22 [warn]: Notification with id a4a718e0-97f5-4f0d-9420-fad789fb8509 not found for user 5c2d2543-8f3c-445a-a96a-707f4747f24d {"service":"skillnet-exam-server","notificationId":"a4a718e0-97f5-4f0d-9420-fad789fb8509","userId":"5c2d2543-8f3c-445a-a96a-707f4747f24d"}
+2025-04-28 09:59:22 [error]: Notification not found - /api/notifications/a4a718e0-97f5-4f0d-9420-fad789fb8509 - GET - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:59:22 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:59:22 +0000] "GET /api/notifications/a4a718e0-97f5-4f0d-9420-fad789fb8509 HTTP/1.1" 404 267 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:59:33 [info]: User 5c2d2543-8f3c-445a-a96a-707f4747f24d requesting notification a4a718e0-97f5-4f0d-9420-fad789fb8509 {"service":"skillnet-exam-server"}
+2025-04-28 09:59:33 [info]: User 5c2d2543-8f3c-445a-a96a-707f4747f24d requesting notification a4a718e0-97f5-4f0d-9420-fad789fb8509 {"service":"skillnet-exam-server"}
+2025-04-28 09:59:33 [info]: User 5c2d2543-8f3c-445a-a96a-707f4747f24d requesting notification a4a718e0-97f5-4f0d-9420-fad789fb8509 {"service":"skillnet-exam-server"}
+2025-04-28 09:59:33 [warn]: Notification with id a4a718e0-97f5-4f0d-9420-fad789fb8509 not found for user 5c2d2543-8f3c-445a-a96a-707f4747f24d {"service":"skillnet-exam-server","notificationId":"a4a718e0-97f5-4f0d-9420-fad789fb8509","userId":"5c2d2543-8f3c-445a-a96a-707f4747f24d"}
+2025-04-28 09:59:33 [error]: Notification not found - /api/notifications/a4a718e0-97f5-4f0d-9420-fad789fb8509 - GET - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:59:33 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:59:33 +0000] "GET /api/notifications/a4a718e0-97f5-4f0d-9420-fad789fb8509 HTTP/1.1" 404 267 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:59:33 [warn]: Notification with id a4a718e0-97f5-4f0d-9420-fad789fb8509 not found for user 5c2d2543-8f3c-445a-a96a-707f4747f24d {"service":"skillnet-exam-server","notificationId":"a4a718e0-97f5-4f0d-9420-fad789fb8509","userId":"5c2d2543-8f3c-445a-a96a-707f4747f24d"}
+2025-04-28 09:59:33 [error]: Notification not found - /api/notifications/a4a718e0-97f5-4f0d-9420-fad789fb8509 - GET - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:59:33 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:59:33 +0000] "GET /api/notifications/a4a718e0-97f5-4f0d-9420-fad789fb8509 HTTP/1.1" 404 267 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:59:33 [warn]: Notification with id a4a718e0-97f5-4f0d-9420-fad789fb8509 not found for user 5c2d2543-8f3c-445a-a96a-707f4747f24d {"service":"skillnet-exam-server","notificationId":"a4a718e0-97f5-4f0d-9420-fad789fb8509","userId":"5c2d2543-8f3c-445a-a96a-707f4747f24d"}
+2025-04-28 09:59:33 [error]: Notification not found - /api/notifications/a4a718e0-97f5-4f0d-9420-fad789fb8509 - GET - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 09:59:33 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:59:33 +0000] "GET /api/notifications/a4a718e0-97f5-4f0d-9420-fad789fb8509 HTTP/1.1" 404 267 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 09:59:52 [info]: User 5c2d2543-8f3c-445a-a96a-707f4747f24d requesting their notifications {"service":"skillnet-exam-server"}
+2025-04-28 09:59:52 [info]: Retrieved 0 notifications for user 5c2d2543-8f3c-445a-a96a-707f4747f24d {"service":"skillnet-exam-server"}
+2025-04-28 09:59:52 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:08:59:52 +0000] "GET /api/notifications HTTP/1.1" 200 2 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 10:00:25 [info]: Admin 5c2d2543-8f3c-445a-a96a-707f4747f24d creating notification: "Exam Reminder" for user {{login.response.body.user.id}} {"service":"skillnet-exam-server"}
+2025-04-28 10:00:25 [info]: Admin 5c2d2543-8f3c-445a-a96a-707f4747f24d creating notification: "Exam Reminder" for user {{login.response.body.user.id}} {"service":"skillnet-exam-server"}
+2025-04-28 10:00:25 [error]: Error creating notification by admin 5c2d2543-8f3c-445a-a96a-707f4747f24d: invalid input syntax for type uuid: "{{login.response.body.user.id}}" {"service":"skillnet-exam-server","adminId":"5c2d2543-8f3c-445a-a96a-707f4747f24d","targetUserId":"{{login.response.body.user.id}}","error":"Error\n    at Query.run (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/dialects/postgres/query.js:50:25)\n    at /Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/sequelize.js:315:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async PostgresQueryInterface.select (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)\n    at async User.findAll (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/model.js:1140:21)\n    at async User.findOne (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/model.js:1240:12)\n    at async User.findByPk (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/model.js:1221:12)\n    at async /Users/bene/Desktop/OnlyDust/skillnet-exam-server/src/controllers/notification.controller.js:97:20"}
+2025-04-28 10:00:25 [error]: Error creating notification - /api/notifications - POST - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 10:00:25 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:09:00:25 +0000] "POST /api/notifications HTTP/1.1" 500 278 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 10:00:25 [error]: Error creating notification by admin 5c2d2543-8f3c-445a-a96a-707f4747f24d: invalid input syntax for type uuid: "{{login.response.body.user.id}}" {"service":"skillnet-exam-server","adminId":"5c2d2543-8f3c-445a-a96a-707f4747f24d","targetUserId":"{{login.response.body.user.id}}","error":"Error\n    at Query.run (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/dialects/postgres/query.js:50:25)\n    at /Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/sequelize.js:315:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async PostgresQueryInterface.select (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)\n    at async User.findAll (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/model.js:1140:21)\n    at async User.findOne (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/model.js:1240:12)\n    at async User.findByPk (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/model.js:1221:12)\n    at async /Users/bene/Desktop/OnlyDust/skillnet-exam-server/src/controllers/notification.controller.js:97:20"}
+2025-04-28 10:00:25 [error]: Error creating notification - /api/notifications - POST - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-28 10:00:25 [info]: ::ffff:127.0.0.1 - - [28/Apr/2025:09:00:25 +0000] "POST /api/notifications HTTP/1.1" 500 278 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-28 12:51:29 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 12:51:29 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 12:51:29 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 12:51:29 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 12:51:29 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 12:51:29 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 12:51:29 [info]: Initializing Express app... {"service":"skillnet-exam-server"}
+2025-04-28 12:51:29 [info]: Setting up Swagger documentation... {"service":"skillnet-exam-server"}
+2025-04-28 12:51:29 [info]: Swagger documentation set up successfully {"service":"skillnet-exam-server"}
+2025-04-28 12:51:29 [info]: Setting up API routes... {"service":"skillnet-exam-server"}
+2025-04-28 12:51:29 [info]: Starknet indexer configured for network: goerli {"service":"skillnet-exam-server"}
+2025-04-28 12:51:29 [info]: Monitoring 1 Starknet contracts {"service":"skillnet-exam-server"}
+2025-04-28 12:51:29 [info]: API routes set up successfully {"service":"skillnet-exam-server"}
+2025-04-28 12:51:29 [info]: Attempting to start server on port 5001... {"service":"skillnet-exam-server"}
+2025-04-28 12:51:29 [info]: Server running on port 5001 {"service":"skillnet-exam-server"}
+2025-04-28 12:51:58 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 12:51:58 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 12:51:58 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 12:51:58 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 12:51:58 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 12:51:59 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 12:51:59 [info]: Initializing Express app... {"service":"skillnet-exam-server"}
+2025-04-28 12:51:59 [info]: Setting up Swagger documentation... {"service":"skillnet-exam-server"}
+2025-04-28 12:51:59 [info]: Swagger documentation set up successfully {"service":"skillnet-exam-server"}
+2025-04-28 12:51:59 [info]: Setting up API routes... {"service":"skillnet-exam-server"}
+2025-04-28 12:51:59 [info]: Starknet indexer configured for network: goerli {"service":"skillnet-exam-server"}
+2025-04-28 12:51:59 [info]: Monitoring 1 Starknet contracts {"service":"skillnet-exam-server"}
+2025-04-28 12:51:59 [info]: API routes set up successfully {"service":"skillnet-exam-server"}
+2025-04-28 12:51:59 [info]: Attempting to start server on port 5001... {"service":"skillnet-exam-server"}
+2025-04-28 12:51:59 [info]: Server running on port 5001 {"service":"skillnet-exam-server"}
+2025-04-28 12:52:06 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 12:52:06 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 12:52:06 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 12:52:06 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 12:52:06 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 12:52:07 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 12:52:07 [info]: Initializing Express app... {"service":"skillnet-exam-server"}
+2025-04-28 12:52:07 [info]: Setting up Swagger documentation... {"service":"skillnet-exam-server"}
+2025-04-28 12:52:07 [info]: Swagger documentation set up successfully {"service":"skillnet-exam-server"}
+2025-04-28 12:52:07 [info]: Setting up API routes... {"service":"skillnet-exam-server"}
+2025-04-28 12:52:07 [info]: Starknet indexer configured for network: goerli {"service":"skillnet-exam-server"}
+2025-04-28 12:52:07 [info]: Monitoring 1 Starknet contracts {"service":"skillnet-exam-server"}
+2025-04-28 12:52:07 [info]: API routes set up successfully {"service":"skillnet-exam-server"}
+2025-04-28 12:52:07 [info]: Attempting to start server on port 5001... {"service":"skillnet-exam-server"}
+2025-04-28 12:52:07 [info]: Server running on port 5001 {"service":"skillnet-exam-server"}
+2025-04-28 12:52:09 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 12:52:09 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 12:52:09 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 12:52:09 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 12:52:09 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 12:52:09 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 12:52:09 [info]: Initializing Express app... {"service":"skillnet-exam-server"}
+2025-04-28 12:52:09 [info]: Setting up Swagger documentation... {"service":"skillnet-exam-server"}
+2025-04-28 12:52:09 [info]: Swagger documentation set up successfully {"service":"skillnet-exam-server"}
+2025-04-28 12:52:09 [info]: Setting up API routes... {"service":"skillnet-exam-server"}
+2025-04-28 12:52:09 [info]: Starknet indexer configured for network: goerli {"service":"skillnet-exam-server"}
+2025-04-28 12:52:09 [info]: Monitoring 1 Starknet contracts {"service":"skillnet-exam-server"}
+2025-04-28 12:52:09 [info]: API routes set up successfully {"service":"skillnet-exam-server"}
+2025-04-28 12:52:09 [info]: Attempting to start server on port 5001... {"service":"skillnet-exam-server"}
+2025-04-28 12:52:09 [info]: Server running on port 5001 {"service":"skillnet-exam-server"}
+2025-04-28 12:52:11 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 12:52:11 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 12:52:11 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 12:52:11 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 12:52:11 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 12:52:11 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 12:52:11 [info]: Initializing Express app... {"service":"skillnet-exam-server"}
+2025-04-28 12:52:11 [info]: Setting up Swagger documentation... {"service":"skillnet-exam-server"}
+2025-04-28 12:52:11 [info]: Swagger documentation set up successfully {"service":"skillnet-exam-server"}
+2025-04-28 12:52:11 [info]: Setting up API routes... {"service":"skillnet-exam-server"}
+2025-04-28 12:52:11 [info]: Starknet indexer configured for network: goerli {"service":"skillnet-exam-server"}
+2025-04-28 12:52:11 [info]: Monitoring 1 Starknet contracts {"service":"skillnet-exam-server"}
+2025-04-28 12:52:11 [info]: API routes set up successfully {"service":"skillnet-exam-server"}
+2025-04-28 12:52:11 [info]: Attempting to start server on port 5001... {"service":"skillnet-exam-server"}
+2025-04-28 12:52:11 [info]: Server running on port 5001 {"service":"skillnet-exam-server"}
+2025-04-28 12:52:24 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 12:52:24 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 12:52:24 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 12:52:24 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 12:52:24 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 12:52:24 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 12:52:24 [info]: Initializing Express app... {"service":"skillnet-exam-server"}
+2025-04-28 12:52:24 [info]: Setting up Swagger documentation... {"service":"skillnet-exam-server"}
+2025-04-28 12:52:24 [info]: Swagger documentation set up successfully {"service":"skillnet-exam-server"}
+2025-04-28 12:52:24 [info]: Setting up API routes... {"service":"skillnet-exam-server"}
+2025-04-28 12:52:24 [info]: Starknet indexer configured for network: goerli {"service":"skillnet-exam-server"}
+2025-04-28 12:52:24 [info]: Monitoring 1 Starknet contracts {"service":"skillnet-exam-server"}
+2025-04-28 12:52:24 [info]: API routes set up successfully {"service":"skillnet-exam-server"}
+2025-04-28 12:52:24 [info]: Attempting to start server on port 5001... {"service":"skillnet-exam-server"}
+2025-04-28 12:52:24 [info]: Server running on port 5001 {"service":"skillnet-exam-server"}
+2025-04-28 12:52:36 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 12:52:36 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 12:52:36 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 12:52:36 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 12:52:36 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 12:52:36 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 12:52:36 [info]: Initializing Express app... {"service":"skillnet-exam-server"}
+2025-04-28 12:52:36 [info]: Setting up Swagger documentation... {"service":"skillnet-exam-server"}
+2025-04-28 12:52:36 [info]: Swagger documentation set up successfully {"service":"skillnet-exam-server"}
+2025-04-28 12:52:36 [info]: Setting up API routes... {"service":"skillnet-exam-server"}
+2025-04-28 12:52:36 [info]: Starknet indexer configured for network: SEPO {"service":"skillnet-exam-server"}
+2025-04-28 12:52:36 [info]: Monitoring 1 Starknet contracts {"service":"skillnet-exam-server"}
+2025-04-28 12:52:36 [info]: API routes set up successfully {"service":"skillnet-exam-server"}
+2025-04-28 12:52:36 [info]: Attempting to start server on port 5001... {"service":"skillnet-exam-server"}
+2025-04-28 12:52:36 [info]: Server running on port 5001 {"service":"skillnet-exam-server"}
+2025-04-28 12:52:40 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 12:52:40 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 12:52:40 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 12:52:40 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 12:52:40 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 12:52:40 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 12:52:40 [info]: Initializing Express app... {"service":"skillnet-exam-server"}
+2025-04-28 12:52:40 [info]: Setting up Swagger documentation... {"service":"skillnet-exam-server"}
+2025-04-28 12:52:40 [info]: Swagger documentation set up successfully {"service":"skillnet-exam-server"}
+2025-04-28 12:52:40 [info]: Setting up API routes... {"service":"skillnet-exam-server"}
+2025-04-28 12:52:40 [info]: Starknet indexer configured for network: sepolia {"service":"skillnet-exam-server"}
+2025-04-28 12:52:40 [info]: Monitoring 1 Starknet contracts {"service":"skillnet-exam-server"}
+2025-04-28 12:52:40 [info]: API routes set up successfully {"service":"skillnet-exam-server"}
+2025-04-28 12:52:40 [info]: Attempting to start server on port 5001... {"service":"skillnet-exam-server"}
+2025-04-28 12:52:40 [info]: Server running on port 5001 {"service":"skillnet-exam-server"}
+2025-04-28 13:03:08 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 13:03:08 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 13:03:08 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 13:03:08 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 13:03:08 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 13:03:08 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 13:05:33 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 13:05:33 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 13:05:33 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 13:05:33 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 13:05:33 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 13:05:33 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 13:05:51 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 13:05:51 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 13:05:51 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 13:05:51 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 13:05:51 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 13:05:51 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 13:07:09 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 13:07:09 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 13:07:09 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 13:07:09 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 13:07:09 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 13:07:09 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 13:07:47 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 13:07:47 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 13:07:47 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 13:07:47 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 13:07:47 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 13:07:47 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 13:10:13 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 13:10:13 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 13:10:13 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 13:10:13 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 13:10:13 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 13:10:13 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 13:42:43 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 13:42:43 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 13:42:43 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 13:42:43 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 13:42:43 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 13:42:43 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 13:45:38 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 13:45:38 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 13:45:38 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 13:45:38 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 13:45:38 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 13:45:38 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 13:45:49 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 13:45:49 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 13:45:49 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 13:45:49 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 13:45:49 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 13:45:49 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 13:45:58 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 13:45:58 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 13:45:58 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 13:45:58 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 13:45:58 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 13:45:58 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:23:09 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:23:09 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:23:09 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:23:09 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:23:09 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:23:09 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:24:26 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:24:26 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:24:26 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:24:26 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:24:26 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:24:26 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:24:29 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:24:29 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:24:29 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:24:29 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:24:29 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:24:29 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:24:42 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:24:42 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:24:42 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:24:42 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:24:42 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:24:43 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:25:21 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:25:21 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:25:21 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:25:21 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:25:21 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:25:21 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:29:06 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:29:06 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:29:06 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:29:06 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:29:06 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:29:06 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:29:06 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:29:06 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:29:06 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:29:06 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:29:07 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:29:07 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:29:21 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:29:21 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:29:21 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:29:21 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:29:21 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:29:21 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:29:21 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:29:21 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:29:21 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:29:21 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:29:21 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:29:21 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:29:34 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:29:34 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:29:34 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:29:34 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:29:34 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:29:34 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:29:34 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:29:34 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:29:34 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:29:34 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:29:34 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:29:34 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:29:45 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:29:45 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:29:45 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:29:45 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:29:45 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:29:45 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:30:10 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:30:10 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:30:10 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:30:10 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:30:10 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:30:10 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:30:10 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:30:10 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:30:10 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:30:10 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:30:10 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:30:11 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:30:12 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:30:12 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:30:12 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:30:12 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:30:12 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:30:12 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:30:12 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:30:12 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:30:12 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:30:12 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:30:12 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:30:12 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:30:14 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:30:14 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:30:14 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:30:14 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:30:14 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:30:14 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:30:14 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:30:14 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:30:14 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:30:14 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:30:14 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:30:14 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:31:35 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:31:35 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:31:35 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:31:35 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:31:35 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:31:35 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:31:35 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:31:35 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:31:35 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:31:35 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:31:35 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:31:35 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:31:38 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:31:38 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:31:38 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:31:38 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:31:38 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:31:38 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:31:38 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:31:38 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:31:38 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:31:38 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:31:38 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:31:38 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:32:46 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:32:46 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:32:46 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:32:46 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:32:46 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:32:46 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:32:46 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:32:46 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:32:46 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:32:46 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:32:46 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:32:46 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:32:50 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:32:50 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:32:50 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:32:50 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:32:50 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:32:50 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:32:50 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:32:50 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:32:50 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:32:50 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:32:50 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:32:50 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:33:49 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:33:49 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:33:49 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:33:49 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:33:49 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:33:49 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:33:49 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:33:49 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:33:49 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:33:49 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:33:49 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:33:50 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:33:53 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:33:53 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:33:53 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:33:53 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:33:53 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:33:53 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:33:53 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:33:53 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:33:53 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:33:53 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:33:53 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:33:53 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:35:16 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:35:16 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:35:16 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:35:16 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:35:16 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:35:16 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:35:16 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:35:16 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:35:16 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:35:16 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:35:17 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:35:17 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:35:19 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:35:19 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:35:19 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:35:19 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:35:19 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:35:19 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:35:19 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:35:19 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:35:19 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:35:19 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:35:19 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:35:19 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:36:07 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:36:07 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:36:07 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:36:07 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:36:07 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:36:07 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:36:07 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:36:07 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:36:07 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:36:07 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:36:07 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:36:07 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:36:13 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:36:13 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:36:13 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:36:13 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:36:13 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:36:13 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:36:13 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:36:13 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:36:13 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:36:13 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:36:13 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:36:14 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:36:44 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:36:44 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:36:44 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:36:44 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:36:44 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:36:44 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:36:44 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:36:44 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:36:44 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:36:44 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:36:44 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:36:44 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:36:56 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:36:56 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:36:56 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:36:56 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:36:56 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:36:56 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:36:56 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:36:56 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:36:56 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:36:56 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:36:56 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:36:56 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:37:02 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:37:02 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:37:02 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:37:02 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:37:02 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:37:02 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:37:02 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:37:02 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:37:02 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:37:02 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:37:02 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:37:03 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:37:06 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:37:06 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:37:06 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:37:06 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:37:06 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:37:06 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:37:06 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:37:06 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:37:06 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:37:06 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:37:06 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:37:06 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:37:10 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:37:10 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:37:10 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-28 14:37:10 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-28 14:37:10 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:37:10 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-28 14:37:10 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:37:10 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:37:10 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-28 14:37:10 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-28 14:37:10 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-28 14:37:10 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-29 02:28:55 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-29 02:28:55 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-29 02:28:55 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-29 02:28:55 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-29 02:28:55 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-29 02:28:55 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-29 02:28:55 [info]: Initializing Express app... {"service":"skillnet-exam-server"}
+2025-04-29 02:28:55 [info]: Setting up Swagger documentation... {"service":"skillnet-exam-server"}
+2025-04-29 02:28:55 [info]: Swagger documentation set up successfully {"service":"skillnet-exam-server"}
+2025-04-29 02:28:55 [info]: Setting up API routes... {"service":"skillnet-exam-server"}
+2025-04-29 02:28:55 [info]: Starknet indexer configured for network: sepolia {"service":"skillnet-exam-server"}
+2025-04-29 02:28:55 [info]: Monitoring 1 Starknet contracts {"service":"skillnet-exam-server"}
+2025-04-29 02:28:56 [info]: Apibara Starknet indexer initialized {"service":"skillnet-exam-server"}
+2025-04-29 02:28:56 [info]: API routes set up successfully {"service":"skillnet-exam-server"}
+2025-04-29 02:28:56 [info]: Attempting to start server on port 5001... {"service":"skillnet-exam-server"}
+2025-04-29 02:28:56 [info]: Server running on port 5001 {"service":"skillnet-exam-server"}
+2025-04-29 02:30:18 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-29 02:30:18 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-29 02:30:18 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-29 02:30:18 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-29 02:30:18 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-29 02:30:18 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-29 02:30:18 [info]: Initializing Express app... {"service":"skillnet-exam-server"}
+2025-04-29 02:30:18 [info]: Setting up Swagger documentation... {"service":"skillnet-exam-server"}
+2025-04-29 02:30:18 [info]: Swagger documentation set up successfully {"service":"skillnet-exam-server"}
+2025-04-29 02:30:18 [info]: Setting up API routes... {"service":"skillnet-exam-server"}
+2025-04-29 02:30:18 [info]: Starknet indexer configured for network: sepolia {"service":"skillnet-exam-server"}
+2025-04-29 02:30:18 [info]: Monitoring 1 Starknet contracts {"service":"skillnet-exam-server"}
+2025-04-29 02:30:18 [info]: Apibara Starknet indexer initialized {"service":"skillnet-exam-server"}
+2025-04-29 02:30:18 [info]: API routes set up successfully {"service":"skillnet-exam-server"}
+2025-04-29 02:30:18 [info]: Attempting to start server on port 5001... {"service":"skillnet-exam-server"}
+2025-04-29 02:30:18 [info]: Server running on port 5001 {"service":"skillnet-exam-server"}
+2025-04-29 02:42:38 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-04-29 02:42:38 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-04-29 02:42:38 [info]: Database connection has been established successfully. {"service":"skillnet-exam-server"}
+2025-04-29 02:42:38 [info]: Successfully connected to database {"service":"skillnet-exam-server"}
+2025-04-29 02:42:38 [info]: Attempting to sync database models... {"service":"skillnet-exam-server"}
+2025-04-29 02:42:38 [info]: Successfully synced database models {"service":"skillnet-exam-server"}
+2025-04-29 02:42:38 [info]: Initializing Express app... {"service":"skillnet-exam-server"}
+2025-04-29 02:42:38 [info]: Setting up Swagger documentation... {"service":"skillnet-exam-server"}
+2025-04-29 02:42:38 [info]: Swagger documentation set up successfully {"service":"skillnet-exam-server"}
+2025-04-29 02:42:38 [info]: Setting up API routes... {"service":"skillnet-exam-server"}
+2025-04-29 02:42:38 [info]: Starknet indexer configured for network: sepolia {"service":"skillnet-exam-server"}
+2025-04-29 02:42:38 [info]: Monitoring 1 Starknet contracts {"service":"skillnet-exam-server"}
+2025-04-29 02:42:38 [info]: Apibara Starknet indexer initialized {"service":"skillnet-exam-server"}
+2025-04-29 02:42:38 [info]: API routes set up successfully {"service":"skillnet-exam-server"}
+2025-04-29 02:42:38 [info]: Attempting to start server on port 5001... {"service":"skillnet-exam-server"}
+2025-04-29 02:42:38 [info]: Server running on port 5001 {"service":"skillnet-exam-server"}
+2025-04-29 02:44:22 [error]: User already exists - /api/auth/register - POST - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-29 02:44:22 [info]: ::ffff:127.0.0.1 - - [29/Apr/2025:01:44:22 +0000] "POST /api/auth/register HTTP/1.1" 400 253 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-29 02:44:29 [info]: ::ffff:127.0.0.1 - - [29/Apr/2025:01:44:29 +0000] "POST /api/auth/login HTTP/1.1" 200 327 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-29 02:44:41 [info]: ::ffff:127.0.0.1 - - [29/Apr/2025:01:44:41 +0000] "GET /api/users/profile HTTP/1.1" 200 207 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-29 02:44:48 [info]: ::ffff:127.0.0.1 - - [29/Apr/2025:01:44:48 +0000] "GET /api/auth/profile HTTP/1.1" 200 207 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-29 02:45:05 [info]: ::ffff:127.0.0.1 - - [29/Apr/2025:01:45:05 +0000] "GET /api/users/wallet/1 HTTP/1.1" 200 207 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-29 02:45:34 [error]: invalid input syntax for type uuid: "{{createExam.response.body.id}}" - /api/registrations - POST - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-29 02:45:34 [info]: ::ffff:127.0.0.1 - - [29/Apr/2025:01:45:34 +0000] "POST /api/registrations HTTP/1.1" 200 - "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-29 02:46:43 [info]: User cacbe71d-c5db-432e-8f4b-ea61430d48cf requesting their notifications {"service":"skillnet-exam-server"}
+2025-04-29 02:46:43 [info]: Retrieved 0 notifications for user cacbe71d-c5db-432e-8f4b-ea61430d48cf {"service":"skillnet-exam-server"}
+2025-04-29 02:46:43 [info]: ::ffff:127.0.0.1 - - [29/Apr/2025:01:46:43 +0000] "GET /api/notifications HTTP/1.1" 200 2 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-29 02:46:52 [info]: User cacbe71d-c5db-432e-8f4b-ea61430d48cf requesting notification 1 {"service":"skillnet-exam-server"}
+2025-04-29 02:46:52 [error]: Error retrieving notification 1 for user cacbe71d-c5db-432e-8f4b-ea61430d48cf: invalid input syntax for type uuid: "1" {"service":"skillnet-exam-server","notificationId":"1","userId":"cacbe71d-c5db-432e-8f4b-ea61430d48cf","error":"Error\n    at Query.run (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/dialects/postgres/query.js:50:25)\n    at /Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/sequelize.js:315:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async PostgresQueryInterface.select (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)\n    at async Notification.findAll (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/model.js:1140:21)\n    at async Notification.findOne (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/model.js:1240:12)\n    at async /Users/bene/Desktop/OnlyDust/skillnet-exam-server/src/controllers/notification.controller.js:39:26"}
+2025-04-29 02:46:52 [error]: Error retrieving notification - /api/notifications/1 - GET - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-29 02:46:52 [info]: ::ffff:127.0.0.1 - - [29/Apr/2025:01:46:52 +0000] "GET /api/notifications/1 HTTP/1.1" 500 281 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-29 02:47:11 [error]: Not authorized as an admin - /api/notifications - POST - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-29 02:47:11 [info]: ::ffff:127.0.0.1 - - [29/Apr/2025:01:47:11 +0000] "POST /api/notifications HTTP/1.1" 401 623 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-29 02:47:28 [info]: ::ffff:127.0.0.1 - - [29/Apr/2025:01:47:28 +0000] "POST /api/auth/login HTTP/1.1" 200 337 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-29 02:47:49 [info]: Admin 5c2d2543-8f3c-445a-a96a-707f4747f24d creating notification: "Important Announcement" for user all users {"service":"skillnet-exam-server"}
+2025-04-29 02:47:49 [info]: Created notification 2ac7523b-53db-4868-8fc7-11aec928bd64 for user all users by admin 5c2d2543-8f3c-445a-a96a-707f4747f24d {"service":"skillnet-exam-server","notificationId":"2ac7523b-53db-4868-8fc7-11aec928bd64","targetUserId":null,"adminId":"5c2d2543-8f3c-445a-a96a-707f4747f24d","notificationType":"info"}
+2025-04-29 02:47:49 [info]: ::ffff:127.0.0.1 - - [29/Apr/2025:01:47:49 +0000] "POST /api/notifications HTTP/1.1" 201 281 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-29 02:48:04 [info]: User 5c2d2543-8f3c-445a-a96a-707f4747f24d requesting their notifications {"service":"skillnet-exam-server"}
+2025-04-29 02:48:04 [info]: Retrieved 0 notifications for user 5c2d2543-8f3c-445a-a96a-707f4747f24d {"service":"skillnet-exam-server"}
+2025-04-29 02:48:04 [info]: ::ffff:127.0.0.1 - - [29/Apr/2025:01:48:04 +0000] "GET /api/notifications HTTP/1.1" 200 2 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-29 02:49:36 [info]: ::ffff:127.0.0.1 - - [29/Apr/2025:01:49:36 +0000] "POST /api/auth/login HTTP/1.1" 200 327 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-29 02:51:03 [info]: ::ffff:127.0.0.1 - - [29/Apr/2025:01:51:03 +0000] "POST /api/auth/login HTTP/1.1" 200 327 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-29 02:51:57 [error]: Not authorized as an admin - /api/notifications - POST - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-29 02:51:57 [info]: ::ffff:127.0.0.1 - - [29/Apr/2025:01:51:57 +0000] "POST /api/notifications HTTP/1.1" 401 623 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-29 02:52:14 [info]: ::ffff:127.0.0.1 - - [29/Apr/2025:01:52:14 +0000] "POST /api/auth/login HTTP/1.1" 200 337 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-29 02:52:34 [info]: Admin 5c2d2543-8f3c-445a-a96a-707f4747f24d creating notification: "Exam Reminder" for user cacbe71d-c5db-432e-8f4b-ea61430d48cf {"service":"skillnet-exam-server"}
+2025-04-29 02:52:34 [info]: Created notification bf7f370f-5cd7-4a50-b586-c74b85218715 for user cacbe71d-c5db-432e-8f4b-ea61430d48cf by admin 5c2d2543-8f3c-445a-a96a-707f4747f24d {"service":"skillnet-exam-server","notificationId":"bf7f370f-5cd7-4a50-b586-c74b85218715","targetUserId":"cacbe71d-c5db-432e-8f4b-ea61430d48cf","adminId":"5c2d2543-8f3c-445a-a96a-707f4747f24d","notificationType":"warning"}
+2025-04-29 02:52:34 [info]: ::ffff:127.0.0.1 - - [29/Apr/2025:01:52:34 +0000] "POST /api/notifications HTTP/1.1" 201 300 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-29 02:52:54 [info]: Admin 5c2d2543-8f3c-445a-a96a-707f4747f24d updating notification 1 {"service":"skillnet-exam-server"}
+2025-04-29 02:52:54 [error]: Error updating notification 1 by admin 5c2d2543-8f3c-445a-a96a-707f4747f24d: invalid input syntax for type uuid: "1" {"service":"skillnet-exam-server","notificationId":"1","adminId":"5c2d2543-8f3c-445a-a96a-707f4747f24d","error":"Error\n    at Query.run (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/dialects/postgres/query.js:50:25)\n    at /Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/sequelize.js:315:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async PostgresQueryInterface.select (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)\n    at async Notification.findAll (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/model.js:1140:21)\n    at async Notification.findOne (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/model.js:1240:12)\n    at async Notification.findByPk (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/model.js:1221:12)\n    at async /Users/bene/Desktop/OnlyDust/skillnet-exam-server/src/controllers/notification.controller.js:145:26"}
+2025-04-29 02:52:54 [error]: Error updating notification - /api/notifications/1 - PUT - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-29 02:52:54 [info]: ::ffff:127.0.0.1 - - [29/Apr/2025:01:52:54 +0000] "PUT /api/notifications/1 HTTP/1.1" 500 278 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-29 02:53:18 [info]: User 5c2d2543-8f3c-445a-a96a-707f4747f24d marking notification 1 as read {"service":"skillnet-exam-server"}
+2025-04-29 02:53:18 [error]: Error marking notification 1 as read for user 5c2d2543-8f3c-445a-a96a-707f4747f24d: invalid input syntax for type uuid: "1" {"service":"skillnet-exam-server","notificationId":"1","userId":"5c2d2543-8f3c-445a-a96a-707f4747f24d","error":"Error\n    at Query.run (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/dialects/postgres/query.js:50:25)\n    at /Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/sequelize.js:315:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async PostgresQueryInterface.select (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)\n    at async Notification.findAll (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/model.js:1140:21)\n    at async Notification.findOne (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/model.js:1240:12)\n    at async /Users/bene/Desktop/OnlyDust/skillnet-exam-server/src/controllers/notification.controller.js:206:26"}
+2025-04-29 02:53:18 [error]: Error marking notification as read - /api/notifications/1/read - PATCH - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-29 02:53:18 [info]: ::ffff:127.0.0.1 - - [29/Apr/2025:01:53:18 +0000] "PATCH /api/notifications/1/read HTTP/1.1" 500 292 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-29 02:53:48 [info]: Admin 5c2d2543-8f3c-445a-a96a-707f4747f24d updating notification 1 {"service":"skillnet-exam-server"}
+2025-04-29 02:53:48 [error]: Error updating notification 1 by admin 5c2d2543-8f3c-445a-a96a-707f4747f24d: invalid input syntax for type uuid: "1" {"service":"skillnet-exam-server","notificationId":"1","adminId":"5c2d2543-8f3c-445a-a96a-707f4747f24d","error":"Error\n    at Query.run (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/dialects/postgres/query.js:50:25)\n    at /Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/sequelize.js:315:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async PostgresQueryInterface.select (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)\n    at async Notification.findAll (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/model.js:1140:21)\n    at async Notification.findOne (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/model.js:1240:12)\n    at async Notification.findByPk (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/model.js:1221:12)\n    at async /Users/bene/Desktop/OnlyDust/skillnet-exam-server/src/controllers/notification.controller.js:145:26"}
+2025-04-29 02:53:48 [error]: Error updating notification - /api/notifications/1 - PUT - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-29 02:53:48 [info]: ::ffff:127.0.0.1 - - [29/Apr/2025:01:53:48 +0000] "PUT /api/notifications/1 HTTP/1.1" 500 278 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-29 02:53:57 [info]: Admin 5c2d2543-8f3c-445a-a96a-707f4747f24d creating notification: "Exam Reminder" for user cacbe71d-c5db-432e-8f4b-ea61430d48cf {"service":"skillnet-exam-server"}
+2025-04-29 02:53:58 [info]: Created notification 702e787c-0781-4c8b-b68b-c5896f5e73e4 for user cacbe71d-c5db-432e-8f4b-ea61430d48cf by admin 5c2d2543-8f3c-445a-a96a-707f4747f24d {"service":"skillnet-exam-server","notificationId":"702e787c-0781-4c8b-b68b-c5896f5e73e4","targetUserId":"cacbe71d-c5db-432e-8f4b-ea61430d48cf","adminId":"5c2d2543-8f3c-445a-a96a-707f4747f24d","notificationType":"warning"}
+2025-04-29 02:53:58 [info]: ::ffff:127.0.0.1 - - [29/Apr/2025:01:53:58 +0000] "POST /api/notifications HTTP/1.1" 201 300 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-29 02:54:36 [info]: Admin 5c2d2543-8f3c-445a-a96a-707f4747f24d updating notification 702e787c-0781-4c8b-b68b-c5896f5e73e4 {"service":"skillnet-exam-server"}
+2025-04-29 02:54:36 [info]: Updated notification 702e787c-0781-4c8b-b68b-c5896f5e73e4 by admin 5c2d2543-8f3c-445a-a96a-707f4747f24d {"service":"skillnet-exam-server","notificationId":"702e787c-0781-4c8b-b68b-c5896f5e73e4","adminId":"5c2d2543-8f3c-445a-a96a-707f4747f24d","changes":{"title":true,"message":true,"type":false,"isRead":true,"expiresAt":false}}
+2025-04-29 02:54:36 [info]: ::ffff:127.0.0.1 - - [29/Apr/2025:01:54:36 +0000] "PUT /api/notifications/702e787c-0781-4c8b-b68b-c5896f5e73e4 HTTP/1.1" 200 302 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-29 02:54:56 [info]: User 5c2d2543-8f3c-445a-a96a-707f4747f24d marking notification 702e787c-0781-4c8b-b68b-c5896f5e73e4 as read {"service":"skillnet-exam-server"}
+2025-04-29 02:54:56 [warn]: Notification with id 702e787c-0781-4c8b-b68b-c5896f5e73e4 not found for user 5c2d2543-8f3c-445a-a96a-707f4747f24d to mark as read {"service":"skillnet-exam-server","notificationId":"702e787c-0781-4c8b-b68b-c5896f5e73e4","userId":"5c2d2543-8f3c-445a-a96a-707f4747f24d"}
+2025-04-29 02:54:56 [error]: Notification not found - /api/notifications/702e787c-0781-4c8b-b68b-c5896f5e73e4/read - PATCH - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-29 02:54:56 [info]: ::ffff:127.0.0.1 - - [29/Apr/2025:01:54:56 +0000] "PATCH /api/notifications/702e787c-0781-4c8b-b68b-c5896f5e73e4/read HTTP/1.1" 404 268 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-29 02:55:11 [info]: User 5c2d2543-8f3c-445a-a96a-707f4747f24d marking notification 1 as read {"service":"skillnet-exam-server"}
+2025-04-29 02:55:11 [error]: Error marking notification 1 as read for user 5c2d2543-8f3c-445a-a96a-707f4747f24d: invalid input syntax for type uuid: "1" {"service":"skillnet-exam-server","notificationId":"1","userId":"5c2d2543-8f3c-445a-a96a-707f4747f24d","error":"Error\n    at Query.run (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/dialects/postgres/query.js:50:25)\n    at /Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/sequelize.js:315:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async PostgresQueryInterface.select (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)\n    at async Notification.findAll (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/model.js:1140:21)\n    at async Notification.findOne (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/model.js:1240:12)\n    at async /Users/bene/Desktop/OnlyDust/skillnet-exam-server/src/controllers/notification.controller.js:206:26"}
+2025-04-29 02:55:11 [error]: Error marking notification as read - /api/notifications/1/read - PATCH - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-29 02:55:11 [info]: ::ffff:127.0.0.1 - - [29/Apr/2025:01:55:11 +0000] "PATCH /api/notifications/1/read HTTP/1.1" 500 292 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-29 02:55:19 [info]: Fetching exam banners with filters: {} {"service":"skillnet-exam-server"}
+2025-04-29 02:55:19 [error]: Error retrieving exam banners: Exam is associated to ExamBanner using an alias. You've included an alias (exam), but it does not match the alias(es) defined in your association (Exam). {"service":"skillnet-exam-server","error":"SequelizeEagerLoadingError: Exam is associated to ExamBanner using an alias. You've included an alias (exam), but it does not match the alias(es) defined in your association (Exam).\n    at ExamBanner._getIncludedAssociation (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/model.js:574:15)\n    at ExamBanner._validateIncludedElement (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/model.js:502:53)\n    at /Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/model.js:421:37\n    at Array.map (<anonymous>)\n    at ExamBanner._validateIncludedElements (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/model.js:417:39)\n    at ExamBanner.findAll (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/model.js:1124:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async /Users/bene/Desktop/OnlyDust/skillnet-exam-server/src/controllers/examBanner.controller.js:23:25"}
+2025-04-29 02:55:19 [error]: Error retrieving exam banners - /api/exam-banners - GET - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-29 02:55:19 [info]: ::ffff:127.0.0.1 - - [29/Apr/2025:01:55:19 +0000] "GET /api/exam-banners HTTP/1.1" 500 279 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-29 02:55:46 [info]: Admin 5c2d2543-8f3c-445a-a96a-707f4747f24d creating exam banner: "New JavaScript Course" {"service":"skillnet-exam-server"}
+2025-04-29 02:55:46 [error]: Error creating exam banner by admin 5c2d2543-8f3c-445a-a96a-707f4747f24d: invalid input syntax for type uuid: "{{createExam.response.body.id}}" {"service":"skillnet-exam-server","adminId":"5c2d2543-8f3c-445a-a96a-707f4747f24d","examId":"{{createExam.response.body.id}}","error":"Error\n    at Query.run (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/dialects/postgres/query.js:50:25)\n    at /Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/sequelize.js:315:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async PostgresQueryInterface.select (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)\n    at async Exam.findAll (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/model.js:1140:21)\n    at async Exam.findOne (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/model.js:1240:12)\n    at async Exam.findByPk (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/model.js:1221:12)\n    at async /Users/bene/Desktop/OnlyDust/skillnet-exam-server/src/controllers/examBanner.controller.js:116:20"}
+2025-04-29 02:55:46 [error]: Error creating exam banner - /api/exam-banners - POST - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-29 02:55:46 [info]: ::ffff:127.0.0.1 - - [29/Apr/2025:01:55:46 +0000] "POST /api/exam-banners HTTP/1.1" 500 274 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-29 02:56:24 [info]: Admin 5c2d2543-8f3c-445a-a96a-707f4747f24d updating exam banner 1 {"service":"skillnet-exam-server"}
+2025-04-29 02:56:24 [error]: Error updating exam banner 1 by admin 5c2d2543-8f3c-445a-a96a-707f4747f24d: invalid input syntax for type uuid: "1" {"service":"skillnet-exam-server","bannerId":"1","adminId":"5c2d2543-8f3c-445a-a96a-707f4747f24d","error":"Error\n    at Query.run (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/dialects/postgres/query.js:50:25)\n    at /Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/sequelize.js:315:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async PostgresQueryInterface.select (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)\n    at async ExamBanner.findAll (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/model.js:1140:21)\n    at async ExamBanner.findOne (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/model.js:1240:12)\n    at async ExamBanner.findByPk (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/model.js:1221:12)\n    at async /Users/bene/Desktop/OnlyDust/skillnet-exam-server/src/controllers/examBanner.controller.js:180:20"}
+2025-04-29 02:56:24 [error]: Error updating exam banner - /api/exam-banners/1 - PUT - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-29 02:56:24 [info]: ::ffff:127.0.0.1 - - [29/Apr/2025:01:56:24 +0000] "PUT /api/exam-banners/1 HTTP/1.1" 500 274 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-29 02:56:49 [info]: Admin 5c2d2543-8f3c-445a-a96a-707f4747f24d creating exam recording: "JavaScript Fundamentals Workshop" {"service":"skillnet-exam-server"}
+2025-04-29 02:56:49 [error]: Error creating exam recording by admin 5c2d2543-8f3c-445a-a96a-707f4747f24d: invalid input syntax for type uuid: "{{createExam.response.body.id}}" {"service":"skillnet-exam-server","adminId":"5c2d2543-8f3c-445a-a96a-707f4747f24d","examId":"{{createExam.response.body.id}}","error":"Error\n    at Query.run (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/dialects/postgres/query.js:50:25)\n    at /Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/sequelize.js:315:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async PostgresQueryInterface.select (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)\n    at async Exam.findAll (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/model.js:1140:21)\n    at async Exam.findOne (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/model.js:1240:12)\n    at async Exam.findByPk (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/model.js:1221:12)\n    at async /Users/bene/Desktop/OnlyDust/skillnet-exam-server/src/controllers/examRecording.controller.js:114:18"}
+2025-04-29 02:56:49 [error]: Error creating exam recording - /api/exam-recordings - POST - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-29 02:56:49 [info]: ::ffff:127.0.0.1 - - [29/Apr/2025:01:56:49 +0000] "POST /api/exam-recordings HTTP/1.1" 500 283 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-29 02:57:15 [info]: Fetching indexer status {"service":"skillnet-exam-server"}
+2025-04-29 02:57:15 [error]: Error retrieving indexer status: getConfig is not a function {"service":"skillnet-exam-server","error":"TypeError: getConfig is not a function\n    at /Users/bene/Desktop/OnlyDust/skillnet-exam-server/src/controllers/indexer.controller.js:22:20\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"}
+2025-04-29 02:57:15 [error]: Error retrieving indexer status - /api/indexer/status - GET - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-29 02:57:15 [info]: ::ffff:127.0.0.1 - - [29/Apr/2025:01:57:15 +0000] "GET /api/indexer/status HTTP/1.1" 500 280 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-29 02:57:27 [info]: Admin 5c2d2543-8f3c-445a-a96a-707f4747f24d triggering indexer scan {"service":"skillnet-exam-server"}
+2025-04-29 02:57:27 [error]: Error triggering indexer scan by admin 5c2d2543-8f3c-445a-a96a-707f4747f24d: indexer.scanForEvents is not a function {"service":"skillnet-exam-server","adminId":"5c2d2543-8f3c-445a-a96a-707f4747f24d","error":"TypeError: indexer.scanForEvents is not a function\n    at /Users/bene/Desktop/OnlyDust/skillnet-exam-server/src/controllers/indexer.controller.js:57:34\n    at asyncUtilWrap (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/express-async-handler/index.js:3:20)\n    at Layer.handle [as handle_request] (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/express/lib/router/route.js:149:13)\n    at admin (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/src/middleware/auth.middleware.js:38:5)\n    at Layer.handle [as handle_request] (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/express/lib/router/route.js:149:13)\n    at /Users/bene/Desktop/OnlyDust/skillnet-exam-server/src/middleware/auth.middleware.js:22:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"}
+2025-04-29 02:57:27 [error]: Error triggering indexer scan: indexer.scanForEvents is not a function - /api/indexer/scan - POST - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-29 02:57:27 [info]: ::ffff:127.0.0.1 - - [29/Apr/2025:01:57:27 +0000] "POST /api/indexer/scan HTTP/1.1" 500 - "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-29 02:58:07 [info]: Admin 5c2d2543-8f3c-445a-a96a-707f4747f24d retrieving exams from indexed blockchain events {"service":"skillnet-exam-server"}
+2025-04-29 02:58:07 [info]: Retrieved 0 indexed exams for admin 5c2d2543-8f3c-445a-a96a-707f4747f24d {"service":"skillnet-exam-server"}
+2025-04-29 02:58:07 [info]: ::ffff:127.0.0.1 - - [29/Apr/2025:01:58:07 +0000] "GET /api/indexer/exams HTTP/1.1" 200 2 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-29 02:58:18 [info]: Admin 5c2d2543-8f3c-445a-a96a-707f4747f24d retrieving registrations from indexed blockchain events {"service":"skillnet-exam-server"}
+2025-04-29 02:58:18 [error]: Error retrieving indexed registrations for admin 5c2d2543-8f3c-445a-a96a-707f4747f24d: Invalid value {
+  eventData: { '$like': '%"examId":"{{createExam.response.body.id}}"%' }
+} {"service":"skillnet-exam-server","adminId":"5c2d2543-8f3c-445a-a96a-707f4747f24d","error":"Error: Invalid value {\n  eventData: { '$like': '%\"examId\":\"{{createExam.response.body.id}}\"%' }\n}\n    at Object.escape (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/sql-string.js:54:11)\n    at PostgresQueryGenerator.escape (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:766:22)\n    at /Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1996:71\n    at Array.map (<anonymous>)\n    at PostgresQueryGenerator._whereParseSingleValueObject (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1996:52)\n    at PostgresQueryGenerator.whereItemQuery (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1812:19)\n    at /Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1737:25\n    at Array.forEach (<anonymous>)\n    at PostgresQueryGenerator.whereItemsQuery (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1735:35)\n    at PostgresQueryGenerator.getWhereConditions (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2078:19)"}
+2025-04-29 02:58:18 [error]: Error retrieving indexed registrations - /api/indexer/registrations?examId=%7B%7BcreateExam.response.body.id%7D%7D - GET - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-29 02:58:18 [info]: ::ffff:127.0.0.1 - - [29/Apr/2025:01:58:18 +0000] "GET /api/indexer/registrations?examId=%7B%7BcreateExam.response.body.id%7D%7D HTTP/1.1" 500 295 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-29 02:58:30 [info]: Admin 5c2d2543-8f3c-445a-a96a-707f4747f24d retrieving exams from indexed blockchain events {"service":"skillnet-exam-server"}
+2025-04-29 02:58:30 [info]: Retrieved 0 indexed exams for admin 5c2d2543-8f3c-445a-a96a-707f4747f24d {"service":"skillnet-exam-server"}
+2025-04-29 02:58:30 [info]: ::ffff:127.0.0.1 - - [29/Apr/2025:01:58:30 +0000] "GET /api/indexer/exams HTTP/1.1" 200 2 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-04-29 02:58:37 [info]: Admin 5c2d2543-8f3c-445a-a96a-707f4747f24d retrieving contract events {"service":"skillnet-exam-server"}
+2025-04-29 02:58:37 [error]: Error retrieving contract events for admin 5c2d2543-8f3c-445a-a96a-707f4747f24d: column ContractEvent.logIndex does not exist {"service":"skillnet-exam-server","adminId":"5c2d2543-8f3c-445a-a96a-707f4747f24d","error":"Error\n    at Query.run (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/dialects/postgres/query.js:50:25)\n    at /Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/sequelize.js:315:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async PostgresQueryInterface.select (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)\n    at async ContractEvent.findAll (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/model.js:1140:21)\n    at async /Users/bene/Desktop/OnlyDust/skillnet-exam-server/src/controllers/indexer.controller.js:99:20"}
+2025-04-29 02:58:37 [error]: Error retrieving contract events - /api/indexer/events?eventName=ExamCreated - GET - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
+2025-04-29 02:58:37 [info]: ::ffff:127.0.0.1 - - [29/Apr/2025:01:58:37 +0000] "GET /api/indexer/events?eventName=ExamCreated HTTP/1.1" 500 283 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
