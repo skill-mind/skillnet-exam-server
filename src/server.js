@@ -69,15 +69,17 @@ const startServer = async () => {
     // Routes
     logger.info('Setting up API routes...');
     try {
-      app.use('/api/exams', require('./routes/exam.routes'));
-      app.use('/api/users', require('./routes/user.routes'));
-      app.use('/api/auth', require('./routes/auth.routes'));
-      app.use('/api/registrations', require('./routes/registration.routes'));
-      app.use('/api/results', require('./routes/result.routes'));
-      app.use('/api/notifications', require('./routes/notification.routes'));
-      app.use('/api/exam-banners', require('./routes/examBanner.routes'));
-      app.use('/api/exam-recordings', require('./routes/examRecording.routes'));
-      app.use('/api/indexer', require('./routes/indexer.routes')); // Added indexer routes
+      const { userRoutes, examRoutes, authRoutes, registrationRoutes, resultRoutes, notificationRoutes, examBannerRoutes, examRecordingRoutes, indexerRoutes } = require('./routes');
+
+      app.use('/api/exams', examRoutes);
+      app.use('/api/users', userRoutes);
+      app.use('/api/auth', authRoutes);
+      app.use('/api/registrations', registrationRoutes);
+      app.use('/api/results', resultRoutes);
+      app.use('/api/notifications', notificationRoutes);
+      app.use('/api/exam-banners', examBannerRoutes);
+      app.use('/api/exam-recordings', examRecordingRoutes);
+      app.use('/api/indexer', indexerRoutes); // Added indexer routes
       logger.info('API routes set up successfully');
     } catch (routeError) {
       logger.error(`Route setup failed: ${routeError.message}`);
