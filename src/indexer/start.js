@@ -3,16 +3,16 @@
  * Starts the indexer as a standalone process
  */
 
-require('dotenv').config();
-const indexer = require('./indexer');
-const logger = require('../utils/logger');
-const db = require('../config/db');
+import 'dotenv/config';
+import { indexer } from './indexer.js';
+import logger from '../utils/logger.js';
+import { sequelize } from '../config/db.js';
 
 const startIndexer = async () => {
   logger.info('Connecting to database...');
   try {
     // Initialize database connection
-    await db.authenticate();
+    await sequelize.authenticate();
     logger.info('Database connection established');
 
     // Start the Apibara indexer
@@ -42,6 +42,4 @@ startIndexer().catch(error => {
   process.exit(1);
 });
 
-module.exports = {
-  startIndexer
-};
+export { startIndexer };

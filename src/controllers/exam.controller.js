@@ -1,7 +1,7 @@
-const { Exam, Question, Option } = require('../models');
-const { Op } = require('sequelize');
-const asyncHandler = require('express-async-handler');
-const { validationResult } = require('express-validator');
+import { Exam, Question, Option } from '../models/index.js';
+import { Op } from 'sequelize';
+import asyncHandler from 'express-async-handler';
+import { validationResult } from 'express-validator';
 
 // @desc    Get all exams
 // @route   GET /api/exams
@@ -75,79 +75,52 @@ const getExamsByCategory = asyncHandler(async (req, res) => {
 // @desc    Create new exam
 // @route   POST /api/exams
 // @access  Private (Admin)
-const createExam = asyncHandler(async (req, res) => {
-  const errors = validationResult(req);
-  if (!errors.isEmpty()) {
-    return res.status(400).json({ errors: errors.array() });
-  }
+const createExam = asyncHandler(async (req, res, next) => {
+  try {
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) {
+      return res.status(400).json({ errors: errors.array() });
+    }
 
-  const {
-    name,
-    description,
-    category,
-    date,
-    duration,
-    certification,
-    passingScore,
-    format,
-    topicsCovered,
-    benefits,
-    price,
-    instructions,
-    questions,
-  } = req.body;
+    let exam;
+    try {
+      exam = await Exam.create(req.body);
+    } catch (error) {
+      return next({ message: `Error creating exam: ${error.message}` });
+    }
 
-  // Create exam
-  const exam = await Exam.create({
-    name,
-    description,
-    category,
-    date,
-    duration,
-    certification,
-    passingScore,
-    format,
-    topicsCovered,
-    benefits,
-    price,
-    instructions,
-  });
-
-  // Create questions and options if provided
-  if (questions && questions.length > 0) {
-    for (let i = 0; i < questions.length; i++) {
-      const q = questions[i];
-      const question = await Question.create({
-        examId: exam.id,
-        question: q.question,
-        order: i + 1,
-      });
-
-      if (q.options && q.options.length > 0) {
-        for (let j = 0; j < q.options.length; j++) {
-          const opt = q.options[j];
-          await Option.create({
-            questionId: question.id,
-            text: opt.text,
-            isCorrect: opt.isCorrect,
-            order: String.fromCharCode(65 + j), // A, B, C, D...
+    try {
+      if (req.body.questions && Array.isArray(req.body.questions) && req.body.questions.length > 0) {
+        for (const question of req.body.questions) {
+          const createdQuestion = await Question.create({
+            ...question,
+            examId: exam.id
           });
+          if (question.options && Array.isArray(question.options) && question.options.length > 0) {
+            for (const option of question.options) {
+              await Option.create({
+                ...option,
+                questionId: createdQuestion.id
+              });
+            }
+          }
         }
       }
+    } catch (error) {
+      if (exam && typeof exam.destroy === 'function') {
+        await exam.destroy();
+      }
+      return next({ message: `Error creating exam: ${error.message}` });
     }
+
+    const createdExam = await Exam.findByPk(exam.id, {
+      include: [{ model: Question, include: [Option] }]
+    });
+
+    res.status(201).json(createdExam);
+  } catch (error) {
+    next({ message: `Error creating exam: ${error.message}` });
   }
-
-  // Return the created exam with questions
-  const createdExam = await Exam.findByPk(exam.id, {
-    include: [
-      {
-        model: Question,
-        include: [Option],
-      },
-    ],
-  });
-
-  res.status(201).json(createdExam);
 });
 
 // @desc    Update exam
@@ -231,7 +204,7 @@ const deleteExam = asyncHandler(async (req, res) => {
   res.status(200).json({ id: req.params.id });
 });
 
-module.exports = {
+export {
   getExams,
   getExamById,
   getExamsByCategory,

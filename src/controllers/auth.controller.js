@@ -1,8 +1,8 @@
-const jwt = require('jsonwebtoken');
-const { validationResult } = require('express-validator');
-const { User } = require('../models');
-const asyncHandler = require('express-async-handler');
-const { Op } = require('sequelize');
+import jwt from 'jsonwebtoken';
+import { validationResult } from 'express-validator';
+import { User } from '../models/index.js';
+import asyncHandler from 'express-async-handler';
+import { Op } from 'sequelize';
 
 // Generate JWT
 const generateToken = (id) => {
@@ -104,7 +104,7 @@ const getUserProfile = asyncHandler(async (req, res) => {
   }
 });
 
-module.exports = {
+export {
   registerUser,
   loginUser,
   getUserProfile,

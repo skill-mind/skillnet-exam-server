@@ -1,8 +1,9 @@
-const express = require('express');
+import express from 'express';
+import { check } from 'express-validator';
+import * as notificationController from '../controllers/notification.controller.js';
+import { protect, admin } from '../middleware/auth.middleware.js';
+
 const router = express.Router();
-const { check } = require('express-validator');
-const notificationController = require('../controllers/notification.controller');
-const { protect, admin } = require('../middleware/auth.middleware');
 
 // @route   GET /api/notifications
 // @desc    Get all notifications for the current user
@@ -42,4 +43,4 @@ router.patch('/:id/read', protect, notificationController.markAsRead);
 // @access  Private/Admin
 router.delete('/:id', [protect, admin], notificationController.deleteNotification);
 
-module.exports = router;
+export default router;

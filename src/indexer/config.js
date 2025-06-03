@@ -3,8 +3,8 @@
  * Contains contract addresses, ABIs, and other settings
  */
 
-require('dotenv').config();
-const logger = require('../utils/logger');
+import 'dotenv/config';
+import logger from '../utils/logger.js';
 
 // Starknet Contract ABIs
 const examContractABI = [
@@ -164,7 +164,7 @@ const indexerConfig = {
 logger.info(`Starknet indexer configured for network: ${indexerConfig.network}`);
 logger.info(`Monitoring ${contracts.length} Starknet contracts`);
 
-module.exports = {
+export {
   indexerConfig,
   apibaraConfig,
   networks,

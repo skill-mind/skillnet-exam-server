@@ -1,5 +1,5 @@
-const winston = require('winston');
-const path = require('path');
+import winston from 'winston';
+import path from 'path';
 
 // Define the custom format with color
 const logFormat = winston.format.combine(
@@ -49,4 +49,4 @@ const logger = winston.createLogger({
 
 // Ensure logs directory exists (this can be done with fs if needed)
 
-module.exports = logger;
+export default logger;

@@ -1,15 +1,26 @@
-const express = require('express');
-const helmet = require('helmet');
-const cors = require('cors');
-const rateLimit = require('express-rate-limit');
-const compression = require('compression');
-const morgan = require('morgan');
-const logger = require('./utils/logger');
-const { connectDB } = require('./config/db');
-const { syncDatabase } = require('./models');
-const swaggerDocs = require('./docs/swagger');
-// const { startIndexer } = require('./indexer/start');
-require('dotenv').config();
+import express from 'express';
+import helmet from 'helmet';
+import cors from 'cors';
+import rateLimit from 'express-rate-limit';
+import compression from 'compression';
+import morgan from 'morgan';
+import logger from './utils/logger.js';
+import { connectDB } from './config/db.js';
+import { syncDatabase } from './models/index.js';
+import swaggerDocs from './docs/swagger.js';
+import 'dotenv/config';
+import { notFound, errorHandler } from './middleware/error.middleware.js';
+
+// Import routes
+import examRoutes from './routes/exam.routes.js';
+import userRoutes from './routes/user.routes.js';
+import authRoutes from './routes/auth.routes.js';
+import registrationRoutes from './routes/registration.routes.js';
+import resultRoutes from './routes/result.routes.js';
+import notificationRoutes from './routes/notification.routes.js';
+import examBannerRoutes from './routes/examBanner.routes.js';
+import examRecordingRoutes from './routes/examRecording.routes.js';
+import indexerRoutes from './routes/indexer.routes.js';
 
 // Connect to database and sync models
 const startServer = async () => {
@@ -69,15 +80,15 @@ const startServer = async () => {
     // Routes
     logger.info('Setting up API routes...');
     try {
-      app.use('/api/exams', require('./routes/exam.routes'));
-      app.use('/api/users', require('./routes/user.routes'));
-      app.use('/api/auth', require('./routes/auth.routes'));
-      app.use('/api/registrations', require('./routes/registration.routes'));
-      app.use('/api/results', require('./routes/result.routes'));
-      app.use('/api/notifications', require('./routes/notification.routes'));
-      app.use('/api/exam-banners', require('./routes/examBanner.routes'));
-      app.use('/api/exam-recordings', require('./routes/examRecording.routes'));
-      app.use('/api/indexer', require('./routes/indexer.routes')); // Added indexer routes
+      app.use('/api/exams', examRoutes);
+      app.use('/api/users', userRoutes);
+      app.use('/api/auth', authRoutes);
+      app.use('/api/registrations', registrationRoutes);
+      app.use('/api/results', resultRoutes);
+      app.use('/api/notifications', notificationRoutes);
+      app.use('/api/exam-banners', examBannerRoutes);
+      app.use('/api/exam-recordings', examRecordingRoutes);
+      app.use('/api/indexer', indexerRoutes); // Added indexer routes
       logger.info('API routes set up successfully');
     } catch (routeError) {
       logger.error(`Route setup failed: ${routeError.message}`);
@@ -85,17 +96,8 @@ const startServer = async () => {
     }
 
     // Error handling middleware
-    app.use((err, req, res, next) => {
-      logger.error(`${err.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
-
-      const statusCode = res.statusCode ? res.statusCode : 500;
-      res.status(statusCode);
-
-      res.json({
-        message: err.message,
-        stack: process.env.NODE_ENV === 'production' ? null : err.stack,
-      });
-    });
+    app.use(notFound);
+    app.use(errorHandler);
 
     const PORT = process.env.PORT || 5001;
 
