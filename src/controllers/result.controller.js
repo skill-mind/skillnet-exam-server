@@ -1,5 +1,5 @@
-const { Result, Registration, Exam, Question, Option } = require('../models');
-const asyncHandler = require('express-async-handler');
+import { Result, Registration, Exam, Question, Option } from '../models/index.js';
+import asyncHandler from 'express-async-handler';
 
 // @desc    Submit exam and create result
 // @access  Private
@@ -151,7 +151,7 @@ const generateCertificate = asyncHandler(async (req, res) => {
   res.status(200).json(certificateData);
 });
 
-module.exports = {
+export {
   submitExam,
   getUserResults,
   getResultById,

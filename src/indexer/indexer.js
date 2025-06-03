@@ -3,17 +3,19 @@
  * Indexes Starknet blockchain events using the Apibara streaming service
  */
 
-const { StreamClient, v1alpha2 } = require('@apibara/protocol');
-const { FieldElement, Filter, StarkNetCursor, v1alpha2: starknet } = require('@apibara/starknet');
-const { ContractEvent } = require('../models');
-const { apibaraConfig, indexerConfig, contracts, eventSelectors } = require('./config');
-const logger = require('../utils/logger');
+import { StreamClient, v1alpha2 } from '@apibara/protocol';
+import { FieldElement, Filter, StarkNetCursor, v1alpha2 as starknet } from '@apibara/starknet';
+import { ContractEvent } from '../models/index.js';
+import { apibaraConfig, indexerConfig, contracts, eventSelectors } from './config.js';
+import logger from '../utils/logger.js';
 
 class ApibaraIndexer {
   constructor() {
     this.isRunning = false;
     this.contracts = contracts;
-    this.eventHandlers = require('./handlers');
+    import('./handlers.js').then(handlers => {
+      this.eventHandlers = handlers;
+    });
 
     // Initialize the Apibara Stream Client
     this.client = new StreamClient({
@@ -303,4 +305,4 @@ class ApibaraIndexer {
 
 const indexer = new ApibaraIndexer();
 
-module.exports = indexer;
+export { indexer };

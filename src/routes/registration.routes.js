@@ -1,8 +1,9 @@
-const express = require('express');
+import express from 'express';
+import { check } from 'express-validator';
+import * as registrationController from '../controllers/registration.controller.js';
+import { protect } from '../middleware/auth.middleware.js';
+
 const router = express.Router();
-const { check } = require('express-validator');
-const registrationController = require('../controllers/registration.controller');
-const { protect } = require('../middleware/auth.middleware');
 
 // @route   POST /api/registrations
 // @desc    Register for an exam
@@ -32,4 +33,4 @@ router.post('/validate', [
   check('examCode', 'Exam code is required').not().isEmpty()
 ], registrationController.validateExamCode);
 
-module.exports = router;
+export default router;

@@ -1,8 +1,9 @@
-const express = require('express');
+import express from 'express';
+import { check } from 'express-validator';
+import * as userController from '../controllers/user.controller.js';
+import { protect, admin } from '../middleware/auth.middleware.js';
+
 const router = express.Router();
-const { check } = require('express-validator');
-const userController = require('../controllers/user.controller');
-const { protect, admin } = require('../middleware/auth.middleware');
 
 // @route   GET /api/users/profile
 // @desc    Get user profile
@@ -24,4 +25,4 @@ router.get('/wallet/:address', userController.getUserByWallet);
 // @access  Private/Admin
 router.get('/', [protect, admin], userController.getUsers);
 
-module.exports = router;
+export default router;

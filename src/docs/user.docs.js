@@ -115,4 +115,4 @@
  *         description: Not authorized
  */
 
-module.exports = {};
+export default {};

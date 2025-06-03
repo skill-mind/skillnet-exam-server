@@ -1,6 +1,6 @@
-const { Sequelize } = require('sequelize');
-require('dotenv').config();
-const logger = require('../utils/logger');
+import { Sequelize } from 'sequelize';
+import 'dotenv/config';
+import logger from '../utils/logger.js';
 
 const sequelize = new Sequelize(
   process.env.DB_NAME,
@@ -30,4 +30,4 @@ const connectDB = async () => {
   }
 };
 
-module.exports = { sequelize, connectDB };
+export { sequelize, connectDB };

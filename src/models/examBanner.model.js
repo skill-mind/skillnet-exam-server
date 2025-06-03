@@ -1,4 +1,4 @@
-module.exports = (sequelize, DataTypes) => {
+export default (sequelize, DataTypes) => {
   const ExamBanner = sequelize.define('ExamBanner', {
     id: {
       type: DataTypes.UUID,

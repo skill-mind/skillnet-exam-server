@@ -1,7 +1,7 @@
-const { Notification, User } = require('../models');
-const asyncHandler = require('express-async-handler');
-const { validationResult } = require('express-validator');
-const logger = require('../utils/logger');
+import { Notification, User } from '../models/index.js';
+import asyncHandler from 'express-async-handler';
+import { validationResult } from 'express-validator';
+import logger from '../utils/logger.js';
 
 // @desc    Get all notifications
 // @route   GET /api/notifications
@@ -289,7 +289,7 @@ const deleteNotification = asyncHandler(async (req, res) => {
   }
 });
 
-module.exports = {
+export {
   getNotifications,
   getNotificationById,
   createNotification,

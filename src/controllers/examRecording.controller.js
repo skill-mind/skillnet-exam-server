@@ -1,7 +1,7 @@
-const { ExamRecording, Exam } = require('../models');
-const asyncHandler = require('express-async-handler');
-const { validationResult } = require('express-validator');
-const logger = require('../utils/logger');
+import { ExamRecording, Exam } from '../models/index.js';
+import asyncHandler from 'express-async-handler';
+import { validationResult } from 'express-validator';
+import logger from '../utils/logger.js';
 
 // @desc    Get all exam recordings
 // @route   GET /api/exam-recordings
@@ -359,7 +359,7 @@ const togglePublishStatus = asyncHandler(async (req, res) => {
   }
 });
 
-module.exports = {
+export {
   getExamRecordings,
   getExamRecordingById,
   createExamRecording,

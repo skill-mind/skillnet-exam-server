@@ -1,8 +1,9 @@
-const express = require('express');
+import express from 'express';
+import { check } from 'express-validator';
+import * as examBannerController from '../controllers/examBanner.controller.js';
+import { protect, admin } from '../middleware/auth.middleware.js';
+
 const router = express.Router();
-const { check } = require('express-validator');
-const examBannerController = require('../controllers/examBanner.controller');
-const { protect, admin } = require('../middleware/auth.middleware');
 
 // @route   GET /api/exam-banners
 // @desc    Get all exam banners
@@ -37,4 +38,4 @@ router.put('/:id', [protect, admin], examBannerController.updateExamBanner);
 // @access  Private/Admin
 router.delete('/:id', [protect, admin], examBannerController.deleteExamBanner);
 
-module.exports = router;
+export default router;

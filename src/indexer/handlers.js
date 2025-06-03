@@ -1,12 +1,12 @@
-/**
+ /**
  * Event handlers for Starknet contract events
  * Each handler processes a specific event type and takes actions in the backend
  */
 
-const { FieldElement } = require("@apibara/starknet");
-const { uint256 } = require('starknet');
-const { User, Exam, Registration, Result, Notification } = require('../models');
-const logger = require('../utils/logger');
+import { FieldElement } from "@apibara/starknet";
+import { uint256 } from 'starknet';
+import { User, Exam, Registration, Result, Notification } from '../models/index.js';
+import logger from '../utils/logger.js';
 
 // Utility to convert Starknet felt to string
 const feltToString = (felt) => {
@@ -311,7 +311,7 @@ const handleCertificateIssued = async (contractEvent) => {
   }
 };
 
-module.exports = {
+export {
   handleExamCreated,
   handleUserRegistered,
   handleExamCompleted,

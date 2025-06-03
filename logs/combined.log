@@ -901,3 +901,13 @@
 2025-04-29 02:58:37 [error]: Error retrieving contract events for admin 5c2d2543-8f3c-445a-a96a-707f4747f24d: column ContractEvent.logIndex does not exist {"service":"skillnet-exam-server","adminId":"5c2d2543-8f3c-445a-a96a-707f4747f24d","error":"Error\n    at Query.run (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/dialects/postgres/query.js:50:25)\n    at /Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/sequelize.js:315:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async PostgresQueryInterface.select (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)\n    at async ContractEvent.findAll (/Users/bene/Desktop/OnlyDust/skillnet-exam-server/node_modules/sequelize/lib/model.js:1140:21)\n    at async /Users/bene/Desktop/OnlyDust/skillnet-exam-server/src/controllers/indexer.controller.js:99:20"}
 2025-04-29 02:58:37 [error]: Error retrieving contract events - /api/indexer/events?eventName=ExamCreated - GET - ::ffff:127.0.0.1 {"service":"skillnet-exam-server"}
 2025-04-29 02:58:37 [info]: ::ffff:127.0.0.1 - - [29/Apr/2025:01:58:37 +0000] "GET /api/indexer/events?eventName=ExamCreated HTTP/1.1" 500 283 "-" "vscode-restclient" {"service":"skillnet-exam-server"}
+2025-06-03 18:33:28 [info]: Starknet indexer configured for network: sepolia {"service":"skillnet-exam-server"}
+2025-06-03 18:33:28 [info]: Monitoring 1 Starknet contracts {"service":"skillnet-exam-server"}
+2025-06-03 18:33:28 [info]: Apibara Starknet indexer initialized {"service":"skillnet-exam-server"}
+2025-06-03 18:33:28 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-06-03 18:33:28 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}
+2025-06-03 21:25:12 [info]: Starknet indexer configured for network: sepolia {"service":"skillnet-exam-server"}
+2025-06-03 21:25:12 [info]: Monitoring 1 Starknet contracts {"service":"skillnet-exam-server"}
+2025-06-03 21:25:12 [info]: Apibara Starknet indexer initialized {"service":"skillnet-exam-server"}
+2025-06-03 21:25:12 [info]: Starting server initialization... {"service":"skillnet-exam-server"}
+2025-06-03 21:25:12 [info]: Attempting to connect to database... {"service":"skillnet-exam-server"}

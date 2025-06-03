@@ -1,8 +1,9 @@
-const express = require('express');
+import express from 'express';
+import { check } from 'express-validator';
+import * as examController from '../controllers/exam.controller.js';
+import { protect, admin } from '../middleware/auth.middleware.js';
+
 const router = express.Router();
-const { check } = require('express-validator');
-const examController = require('../controllers/exam.controller');
-const { protect, admin } = require('../middleware/auth.middleware');
 
 // @route   GET /api/exams
 // @desc    Get all exams
@@ -46,4 +47,4 @@ router.put('/:id', [protect, admin], examController.updateExam);
 // @access  Private/Admin
 router.delete('/:id', [protect, admin], examController.deleteExam);
 
-module.exports = router;
+export default router;

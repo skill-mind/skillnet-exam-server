@@ -141,4 +141,4 @@
  *         description: Registration not found
  */
 
-module.exports = {};
+export default {};
