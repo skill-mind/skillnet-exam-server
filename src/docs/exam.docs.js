@@ -263,4 +263,4 @@
  *         description: List of exams in the category
  */
 
-module.exports = {};
+export default {};

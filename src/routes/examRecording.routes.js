@@ -1,8 +1,9 @@
-const express = require('express');
+import express from 'express';
+import { check } from 'express-validator';
+import * as examRecordingController from '../controllers/examRecording.controller.js';
+import { protect, admin } from '../middleware/auth.middleware.js';
+
 const router = express.Router();
-const { check } = require('express-validator');
-const examRecordingController = require('../controllers/examRecording.controller');
-const { protect, admin } = require('../middleware/auth.middleware');
 
 // @route   GET /api/exam-recordings
 // @desc    Get all exam recordings
@@ -42,4 +43,4 @@ router.patch('/:id/publish', [protect, admin], examRecordingController.togglePub
 // @access  Private/Admin
 router.delete('/:id', [protect, admin], examRecordingController.deleteExamRecording);
 
-module.exports = router;
+export default router;

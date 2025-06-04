@@ -1,6 +1,6 @@
-const { Registration, User, Exam } = require('../models');
-const { validationResult } = require('express-validator');
-const asyncHandler = require('express-async-handler');
+import { Registration, User, Exam } from '../models/index.js';
+import { validationResult } from 'express-validator';
+import asyncHandler from 'express-async-handler';
 
 // @desc    Register for an exam
 // @access  Private
@@ -125,7 +125,7 @@ const validateExamCode = asyncHandler(async (req, res) => {
   });
 });
 
-module.exports = {
+export {
   registerForExam,
   updatePaymentStatus,
   getUserRegistrations,

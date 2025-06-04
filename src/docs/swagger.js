@@ -1,12 +1,12 @@
-const swaggerJsdoc = require('swagger-jsdoc');
-const swaggerUi = require('swagger-ui-express');
+import swaggerJsdoc from 'swagger-jsdoc';
+import swaggerUi from 'swagger-ui-express';
 
 // Import all route documentation
-require('./user.docs');
-require('./auth.docs');
-require('./exam.docs');
-require('./registration.docs');
-require('./result.docs');
+import './user.docs.js';
+import './auth.docs.js';
+import './exam.docs.js';
+import './registration.docs.js';
+import './result.docs.js';
 
 const options = {
   definition: {
@@ -49,7 +49,6 @@ const options = {
 
 const specs = swaggerJsdoc(options);
 
-module.exports = {
-  serve: swaggerUi.serve,
-  setup: swaggerUi.setup(specs),
-};
+export const serve = swaggerUi.serve;
+export const setup = swaggerUi.setup(specs);
+export default { serve, setup };

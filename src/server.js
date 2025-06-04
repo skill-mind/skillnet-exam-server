@@ -1,15 +1,18 @@
-const express = require('express');
-const helmet = require('helmet');
-const cors = require('cors');
-const rateLimit = require('express-rate-limit');
-const compression = require('compression');
-const morgan = require('morgan');
-const logger = require('./utils/logger');
-const { connectDB } = require('./config/db');
-const { syncDatabase } = require('./models');
-const swaggerDocs = require('./docs/swagger');
-// const { startIndexer } = require('./indexer/start');
-require('dotenv').config();
+import express from 'express';
+import helmet from 'helmet';
+import cors from 'cors';
+import rateLimit from 'express-rate-limit';
+import compression from 'compression';
+import morgan from 'morgan';
+import logger from './utils/logger.js';
+import { connectDB } from './config/db.js';
+import { syncDatabase } from './models/index.js';
+import swaggerDocs from './docs/swagger.js';
+import 'dotenv/config';
+import { notFound, errorHandler } from './middleware/error.middleware.js';
+
+// Import routes
+import { userRoutes, examRoutes, authRoutes, registrationRoutes, resultRoutes, notificationRoutes, examBannerRoutes, examRecordingRoutes, indexerRoutes } from './routes';
 
 // Connect to database and sync models
 const startServer = async () => {
@@ -69,8 +72,6 @@ const startServer = async () => {
     // Routes
     logger.info('Setting up API routes...');
     try {
-      const { userRoutes, examRoutes, authRoutes, registrationRoutes, resultRoutes, notificationRoutes, examBannerRoutes, examRecordingRoutes, indexerRoutes } = require('./routes');
-
       app.use('/api/exams', examRoutes);
       app.use('/api/users', userRoutes);
       app.use('/api/auth', authRoutes);
@@ -87,17 +88,8 @@ const startServer = async () => {
     }
 
     // Error handling middleware
-    app.use((err, req, res, next) => {
-      logger.error(`${err.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
-
-      const statusCode = res.statusCode ? res.statusCode : 500;
-      res.status(statusCode);
-
-      res.json({
-        message: err.message,
-        stack: process.env.NODE_ENV === 'production' ? null : err.stack,
-      });
-    });
+    app.use(notFound);
+    app.use(errorHandler);
 
     const PORT = process.env.PORT || 5001;
 

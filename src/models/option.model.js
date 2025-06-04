@@ -1,4 +1,4 @@
-module.exports = (sequelize, DataTypes) => {
+export default (sequelize, DataTypes) => {
     const Option = sequelize.define('Option', {
       id: {
         type: DataTypes.UUID,
@@ -25,6 +25,10 @@ module.exports = (sequelize, DataTypes) => {
     }, {
       timestamps: true,
     });
+  
+    Option.associate = function(models) {
+      Option.belongsTo(models.Question);
+    };
   
     return Option;
   };

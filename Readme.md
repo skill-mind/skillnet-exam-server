@@ -1,5 +1,3 @@
-
-
 # Contributing to SkillNet: Empowering Exams with Innovation
 
 Thank you for your interest in contributing to SkillNet! SkillNet is a cutting-edge platform designed to host secure and efficient online exams. Our backend is built with Node.js and utilizes modern technologies to deliver a seamless testing experience for educators and candidates.
@@ -339,3 +337,51 @@ Please adhere to our Code of Conduct to maintain a respectful and inclusive comm
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## ESM Migration Guide and Test Fixes
+
+### 1. Update Configuration Files
+
+#### `package.json`:
+```json
+{
+  "type": "module",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "jest": {
+    "transform": {},
+    "extensionsToTreatAsEsm": [".js"]
+  }
+}
+```
+
+#### `jest.config.js`:
+```javascript
+export default {
+  testEnvironment: 'node',
+  transform: {},
+  extensionsToTreatAsEsm: ['.js'],
+  moduleNameMapper: {
+    '^(\\.{1,2}/.*)\\.js$': '$1'
+  }
+};
+```
+
+### 2. Common Issues and Solutions
+
+|             Issue             |             Solution               |
+|-------------------------------|------------------------------------|
+| "Cannot use import statement" | Ensure "type": "module" is set     |
+| Mock not working in tests     | Use unstable_mockModule for ESM    |
+| Missing file extensions       | Always include .js in imports      |
+| Async test failures           | Add proper await/async handling    |
+
+## ESM Usage
+
+```javascript
+// Importing from this package
+import { createExam } from 'skillnet-exam-server'
+```

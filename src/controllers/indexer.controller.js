@@ -1,9 +1,9 @@
-const { ContractEvent } = require('../models');
-const asyncHandler = require('express-async-handler');
-const indexer = require('../indexer/indexer');
-const { getConfig } = require('../indexer/config');
-const logger = require('../utils/logger');
-const { Op } = require('sequelize');
+import { ContractEvent } from '../models/index.js';
+import asyncHandler from 'express-async-handler';
+import { indexer } from '../indexer/indexer.js';
+import { indexerConfig, apibaraConfig, networks, contracts, eventHandlers, eventSelectors } from '../indexer/config.js';
+import logger from '../utils/logger.js';
+import { Op } from 'sequelize';
 
 // @desc    Get indexer status
 // @route   GET /api/indexer/status
@@ -18,15 +18,12 @@ const getIndexerStatus = asyncHandler(async (req, res) => {
       attributes: ['blockNumber', 'blockTimestamp', 'createdAt']
     });
 
-    // Get current network config
-    const config = getConfig();
-
     const status = {
       lastProcessedBlock: lastEvent ? Number(lastEvent.blockNumber) : null,
       lastBlockTimestamp: lastEvent ? new Date(Number(lastEvent.blockTimestamp) * 1000).toISOString() : null,
       lastProcessingTime: lastEvent ? lastEvent.createdAt : null,
-      network: config.network,
-      contractAddress: config.contractAddress,
+      network: indexerConfig.network,
+      contractAddress: indexerConfig.contractAddress,
       isRunning: indexer.isRunning(),
       startBlock: Number(process.env.INDEXER_START_BLOCK) || 0
     };
@@ -259,7 +256,7 @@ const getIndexedResults = asyncHandler(async (req, res) => {
   }
 });
 
-module.exports = {
+export {
   getIndexerStatus,
   triggerScan,
   getContractEvents,

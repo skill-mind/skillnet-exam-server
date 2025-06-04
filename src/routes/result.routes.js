@@ -1,7 +1,8 @@
-const express = require('express');
+import express from 'express';
+import * as resultController from '../controllers/result.controller.js';
+import { protect } from '../middleware/auth.middleware.js';
+
 const router = express.Router();
-const resultController = require('../controllers/result.controller');
-const { protect } = require('../middleware/auth.middleware');
 
 // @route   POST /api/results
 // @desc    Submit exam and create result
@@ -23,4 +24,4 @@ router.get('/:id', protect, resultController.getResultById);
 // @access  Private
 router.get('/certificate/:id', protect, resultController.generateCertificate);
 
-module.exports = router;
+export default router;

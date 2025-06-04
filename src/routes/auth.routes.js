@@ -1,12 +1,13 @@
-const express = require('express');
-const router = express.Router();
-const { check } = require('express-validator');
-const {
+import express from 'express';
+import { check } from 'express-validator';
+import {
   registerUser,
   loginUser,
   getUserProfile,
-} = require('../controllers/auth.controller');
-const { protect } = require('../middleware/auth.middleware');
+} from '../controllers/auth.controller.js';
+import { protect } from '../middleware/auth.middleware.js';
+
+const router = express.Router();
 
 // Register user
 router.post(
@@ -32,4 +33,4 @@ router.post(
 // Get user profile
 router.get('/profile', protect, getUserProfile);
 
-module.exports = router;
+export default router;

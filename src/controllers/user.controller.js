@@ -1,5 +1,5 @@
-const { User } = require('../models');
-const asyncHandler = require('express-async-handler');
+import { User } from '../models/index.js';
+import asyncHandler from 'express-async-handler';
 
 // @desc    Get user profile
 // @access  Private
@@ -19,28 +19,37 @@ const getUserProfile = asyncHandler(async (req, res) => {
 // @desc    Update user profile
 // @access  Private
 const updateUserProfile = asyncHandler(async (req, res) => {
-  const user = await User.findByPk(req.user.id);
+  try {
+    if (!req.body) {
+      res.status(400);
+      return res.json({ message: 'Request body is required' });
+    }
+    const user = await User.findByPk(req.user.id);
 
-  if (!user) {
-    res.status(404);
-    throw new Error('User not found');
+    if (!user) {
+      res.status(404);
+      throw new Error('User not found');
+    }
+
+    const { fullName, email } = req.body;
+
+    // Update fields if provided
+    if (fullName) user.fullName = fullName;
+    if (email) user.email = email;
+
+    await user.save();
+
+    res.status(200).json({
+      id: user.id,
+      fullName: user.fullName,
+      email: user.email,
+      walletAddress: user.walletAddress,
+      role: user.role
+    });
+  } catch (error) {
+    res.status(500);
+    throw new Error('Error updating user profile: ' + error.message);
   }
-
-  const { fullName, email } = req.body;
-
-  // Update fields if provided
-  if (fullName) user.fullName = fullName;
-  if (email) user.email = email;
-
-  await user.save();
-
-  res.status(200).json({
-    id: user.id,
-    fullName: user.fullName,
-    email: user.email,
-    walletAddress: user.walletAddress,
-    role: user.role
-  });
 });
 
 // @desc    Get user by wallet address
@@ -69,7 +78,7 @@ const getUsers = asyncHandler(async (req, res) => {
   res.status(200).json(users);
 });
 
-module.exports = {
+export {
   getUserProfile,
   updateUserProfile,
   getUserByWallet,

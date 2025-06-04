@@ -1,14 +1,15 @@
-const express = require('express');
-const router = express.Router();
-const {
+import express from 'express';
+import {
   getIndexerStatus,
   triggerScan,
   getContractEvents,
   getIndexedExams,
   getIndexedRegistrations,
   getIndexedResults
-} = require('../controllers/indexer.controller');
-const { protect, admin } = require('../middleware/auth.middleware');
+} from '../controllers/indexer.controller.js';
+import { protect, admin } from '../middleware/auth.middleware.js';
+
+const router = express.Router();
 
 // Route for everyone who is authenticated
 router.get('/status', protect, getIndexerStatus);
@@ -20,4 +21,4 @@ router.get('/exams', protect, admin, getIndexedExams);
 router.get('/registrations', protect, admin, getIndexedRegistrations);
 router.get('/results', protect, admin, getIndexedResults);
 
-module.exports = router;
+export default router;

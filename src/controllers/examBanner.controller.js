@@ -1,7 +1,7 @@
-const { ExamBanner, Exam } = require('../models');
-const asyncHandler = require('express-async-handler');
-const { validationResult } = require('express-validator');
-const logger = require('../utils/logger');
+import { ExamBanner, Exam } from '../models/index.js';
+import asyncHandler from 'express-async-handler';
+import { validationResult } from 'express-validator';
+import logger from '../utils/logger.js';
 
 // @desc    Get all exam banners
 // @route   GET /api/exam-banners
@@ -317,7 +317,7 @@ const deleteExamBanner = asyncHandler(async (req, res) => {
   }
 });
 
-module.exports = {
+export {
   getExamBanners,
   getExamBannerById,
   createExamBanner,

@@ -143,4 +143,4 @@
  *         description: Result not found
  */
 
-module.exports = {};
+export default {};
