@@ -12,15 +12,7 @@ import 'dotenv/config';
 import { notFound, errorHandler } from './middleware/error.middleware.js';
 
 // Import routes
-import examRoutes from './routes/exam.routes.js';
-import userRoutes from './routes/user.routes.js';
-import authRoutes from './routes/auth.routes.js';
-import registrationRoutes from './routes/registration.routes.js';
-import resultRoutes from './routes/result.routes.js';
-import notificationRoutes from './routes/notification.routes.js';
-import examBannerRoutes from './routes/examBanner.routes.js';
-import examRecordingRoutes from './routes/examRecording.routes.js';
-import indexerRoutes from './routes/indexer.routes.js';
+import { userRoutes, examRoutes, authRoutes, registrationRoutes, resultRoutes, notificationRoutes, examBannerRoutes, examRecordingRoutes, indexerRoutes } from './routes';
 
 // Connect to database and sync models
 const startServer = async () => {
