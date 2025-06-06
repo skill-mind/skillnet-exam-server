@@ -20,7 +20,8 @@ const registerUser = asyncHandler(async (req, res) => {
     return res.status(400).json({ errors: errors.array() });
   }
 
-  const { fullName, email, walletAddress, role } = req.body;
+  // Remove role from destructuring
+  const { fullName, email, walletAddress } = req.body;
 
   // Check if user exists
   const userExists = await User.findOne({
@@ -37,12 +38,12 @@ const registerUser = asyncHandler(async (req, res) => {
     throw new Error('User already exists');
   }
 
-  // Create user
+  // Always assign default role 'user', ignore any provided role
   const user = await User.create({
     fullName,
     email,
     walletAddress,
-    role,
+    role: 'user',
   });
 
   if (user) {

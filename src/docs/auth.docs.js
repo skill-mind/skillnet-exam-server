@@ -29,9 +29,6 @@
  *                 format: email
  *               walletAddress:
  *                 type: string
- *               role:
- *                 type: string
- *                 enum: [user, admin]
  *     responses:
  *       201:
  *         description: User registered successfully
